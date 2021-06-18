@@ -1,0 +1,4 @@
+2021-06-18 :: 01:10:15.748440 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6
+2021-06-18 :: 01:10:15.737443 :::: Start of Validation of file:!
+2021-06-18 :: 01:10:26.237523 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6
+2021-06-18 :: 01:10:26.226516 :::: Start of Validation of file:!

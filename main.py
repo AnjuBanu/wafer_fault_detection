@@ -1,17 +1,44 @@
-from flask import Flask
 from wsgiref import simple_server
-import os
+from flask import Flask, render_template, request, Response
+from flask_cors import CORS, cross_origin
+from prediction_Validation_Insertion import pred_validation
 
-app = Flask(__name__)
-@app.route ("/")
-def main():
-    return "hello"
+app=Flask(__name__)
+app.debug = True
+CORS(app)
+
+@app.route("/", methods = ['GET'])
+@cross_origin()
+def home():
+    return render_template("index.html")
 
 
-port = int(os.getenv("PORT",5000))
+
+@app.route("/predict", methods = ['POST'])
+@cross_origin()
+def predict_data():
+    try:
+        if request.json is not None:
+            print("hell")
+            path = request.json ['filepath']
+            print(path)
+            pred_val = pred_validation(path)
+            pred_val.prediction_validation()
+        elif request.form is not None:
+            path = request.form ['filepath']
+            print(path)
+            pred_val = pred_validation(path)
+            pred_val.prediction_validation()
+
+
+    except ValueError:
+        return Response("Error Occurred! %s" % ValueError)
+    return ""
+
+
+
 if __name__ == "__main__":
-
-    host = '0.0.0.0'
-    #port = 5000
-    httpd = simple_server.make_server(host, port, app)
+    url="localhost"
+    host=8080
+    httpd = simple_server.make_server(url,host,app)
     httpd.serve_forever()
