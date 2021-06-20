@@ -10,8 +10,11 @@ class pred_validation:
 
     def prediction_validation(self):
         try:
-            self.log_writer.log(self.file, "Start of Validation of file:!")
-            self.raw_data.validateSchema()
+            name_pattern, LengthOfDateStampInFile, LengthOfTimeStampInFile, NumberofColumns, ColName =self.raw_data.validateSchema()
+            self.raw_data.validateNamePattern(name_pattern,LengthOfDateStampInFile,LengthOfTimeStampInFile)
+            self.raw_data.validateNumberofColumns(NumberofColumns)
+            self.raw_data.validateColName(ColName)
+
 
         except ValueError:
             return Response("Error Occurred! %s" % ValueError)

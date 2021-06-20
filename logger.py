@@ -9,7 +9,7 @@ class App_Logger:
         self.current = datetime.now()
         self.date = self.current.date()
         self.time = self.current.time()
-        print(f"{self.date} :: {self.time} :::: {message}\n")
-        file.write(f"{self.date} :: {self.time} :::: {message}\n")
+        print(f"{self.date} :: {self.time} :::: {message}")
+        file.write(f"\n{self.date} :: {self.time} :::: {message}")
 
 
