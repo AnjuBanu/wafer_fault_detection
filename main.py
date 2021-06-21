@@ -13,7 +13,7 @@ CORS(app)
 def home():
     file = open("Logs/prediction_log.txt", "a+")
     log_writer = App_Logger()
-    log_writer.log(file, "zdasdasdsa")
+    log_writer.log(file, "Start")
     return render_template("index.html")
 
 
@@ -23,7 +23,6 @@ def home():
 def predict_data():
     try:
         if request.json is not None:
-            print("hell")
             path = request.json ['filepath']
             print(path)
             pred_val = pred_validation(path)
@@ -39,9 +38,13 @@ def predict_data():
         return Response("Error Occurred! %s" % ValueError)
     return ""
 
+def train_data():
+    train_val = pred_validation("Training_Batch_Files")
+    train_val.prediction_validation()
 
 
 if __name__ == "__main__":
+    train_data()
     url="localhost"
     host=8080
     httpd = simple_server.make_server(url,host,app)
