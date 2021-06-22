@@ -1,8 +1,9 @@
 from wsgiref import simple_server
 from flask import Flask, render_template, request, Response
 from flask_cors import CORS, cross_origin
-from prediction_Validation_Insertion import pred_validation
 from logger import App_Logger
+from dataPreProcessing import Data_Preprocessing
+from modelPreProcessing import Model_Preprocessing
 
 app=Flask(__name__)
 app.debug = True
@@ -17,30 +18,32 @@ def home():
     return render_template("index.html")
 
 
-
-@app.route("/predict", methods = ['POST'])
-@cross_origin()
-def predict_data():
-    try:
-        if request.json is not None:
-            path = request.json ['filepath']
-            print(path)
-            pred_val = pred_validation(path)
-            pred_val.prediction_validation()
-        elif request.form is not None:
-            path = request.form ['filepath']
-            print(path)
-            pred_val = pred_validation(path)
-            pred_val.prediction_validation()
-
-
-    except ValueError:
-        return Response("Error Occurred! %s" % ValueError)
-    return ""
+#
+# @app.route("/predict", methods = ['POST'])
+# @cross_origin()
+# def predict_data():
+#     try:
+#         if request.json is not None:
+#             path = request.json ['filepath']
+#             print(path)
+#             pred_val = pred_validation(path)
+#             pred_val.prediction_validation()
+#         elif request.form is not None:
+#             path = request.form ['filepath']
+#             print(path)
+#             pred_val = pred_validation(path)
+#             pred_val.prediction_validation()
+#
+#
+#     except ValueError:
+#         return Response("Error Occurred! %s" % ValueError)
+#     return ""
 
 def train_data():
-    train_val = pred_validation("Training_Batch_Files")
-    train_val.prediction_validation()
+    train_val = Data_Preprocessing("Batch_files/Training_Batch_Files", "train")
+    train_val.preprocess()
+    # train_model = Model_Preprocessing("train")
+    # train_val.trainModel()
 
 
 if __name__ == "__main__":
