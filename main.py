@@ -4,6 +4,8 @@ from flask_cors import CORS, cross_origin
 from logger import App_Logger
 from dataPreProcessing import Data_Preprocessing
 from modelPreProcessing import Model_Preprocessing
+import os
+import json
 
 app=Flask(__name__)
 app.debug = True
@@ -17,38 +19,29 @@ def home():
     log_writer.log(file, "Start")
     return render_template("index.html")
 
+@app.route("/predict", methods = ['POST'])
+@cross_origin()
+def predict_data():
+    # predict_val = Data_Preprocessing("Batch_files/Prediction_Batch_Files", "predict")
+    # predict_val.preprocess()
+    predict_model = Model_Preprocessing("predict")
+    path,json_predictions = predict_model.predict()
+    return Response("Prediction File created at !!!" + str(path) + 'and few of the predictions are ' + str(
+        json.loads(json_predictions)))
 
-#
-# @app.route("/predict", methods = ['POST'])
-# @cross_origin()
-# def predict_data():
-#     try:
-#         if request.json is not None:
-#             path = request.json ['filepath']
-#             print(path)
-#             pred_val = pred_validation(path)
-#             pred_val.prediction_validation()
-#         elif request.form is not None:
-#             path = request.form ['filepath']
-#             print(path)
-#             pred_val = pred_validation(path)
-#             pred_val.prediction_validation()
-#
-#
-#     except ValueError:
-#         return Response("Error Occurred! %s" % ValueError)
-#     return ""
 
 def train_data():
     train_val = Data_Preprocessing("Batch_files/Training_Batch_Files", "train")
     train_val.preprocess()
-    # train_model = Model_Preprocessing("train")
-    # train_val.trainModel()
+    train_model = Model_Preprocessing("train")
+    train_model.trainModel()
 
 
 if __name__ == "__main__":
-    train_data()
-    url="localhost"
-    host=8080
-    httpd = simple_server.make_server(url,host,app)
-    httpd.serve_forever()
+    app.run(debug=True)
+
+# if __name__ == "__main__":
+#     url="localhost"
+#     host=8080
+#     httpd = simple_server.make_server(url,host,app)
+#     httpd.serve_forever()

@@ -1967,3 +1967,501 @@
 2021-06-22 :: 16:51:01.911642 :::: Pulling the data from database!!
 2021-06-22 :: 16:51:01.911642 :::: Connecting to DB
 2021-06-22 :: 16:51:02.400002 :::: Transferred the data to csv file Final_csv/train_Input.csv !!
+2021-07-16 :: 23:24:21.309049 :::: Validating Expected Schema
+2021-07-16 :: 23:24:21.346819 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6||No of Columns::592||Column names::{'Wafer': 'varchar', 'Sensor-1': 'float', 'Sensor-2': 'float', 'Sensor-3': 'float', 'Sensor-4': 'float', 'Sensor-5': 'float', 'Sensor-6': 'float', 'Sensor-7': 'float', 'Sensor-8': 'float', 'Sensor-9': 'float', 'Sensor-10': 'float', 'Sensor-11': 'float', 'Sensor-12': 'float', 'Sensor-13': 'float', 'Sensor-14': 'float', 'Sensor-15': 'float', 'Sensor-16': 'float', 'Sensor-17': 'float', 'Sensor-18': 'float', 'Sensor-19': 'float', 'Sensor-20': 'float', 'Sensor-21': 'float', 'Sensor-22': 'float', 'Sensor-23': 'float', 'Sensor-24': 'float', 'Sensor-25': 'float', 'Sensor-26': 'float', 'Sensor-27': 'float', 'Sensor-28': 'float', 'Sensor-29': 'float', 'Sensor-30': 'float', 'Sensor-31': 'float', 'Sensor-32': 'float', 'Sensor-33': 'float', 'Sensor-34': 'float', 'Sensor-35': 'float', 'Sensor-36': 'float', 'Sensor-37': 'float', 'Sensor-38': 'float', 'Sensor-39': 'float', 'Sensor-40': 'float', 'Sensor-41': 'float', 'Sensor-42': 'float', 'Sensor-43': 'float', 'Sensor-44': 'float', 'Sensor-45': 'float', 'Sensor-46': 'float', 'Sensor-47': 'float', 'Sensor-48': 'float', 'Sensor-49': 'float', 'Sensor-50': 'float', 'Sensor-51': 'float', 'Sensor-52': 'float', 'Sensor-53': 'float', 'Sensor-54': 'float', 'Sensor-55': 'float', 'Sensor-56': 'float', 'Sensor-57': 'float', 'Sensor-58': 'float', 'Sensor-59': 'float', 'Sensor-60': 'float', 'Sensor-61': 'float', 'Sensor-62': 'float', 'Sensor-63': 'float', 'Sensor-64': 'float', 'Sensor-65': 'float', 'Sensor-66': 'float', 'Sensor-67': 'float', 'Sensor-68': 'float', 'Sensor-69': 'float', 'Sensor-70': 'float', 'Sensor-71': 'float', 'Sensor-72': 'float', 'Sensor-73': 'float', 'Sensor-74': 'float', 'Sensor-75': 'float', 'Sensor-76': 'float', 'Sensor-77': 'float', 'Sensor-78': 'float', 'Sensor-79': 'float', 'Sensor-80': 'float', 'Sensor-81': 'float', 'Sensor-82': 'float', 'Sensor-83': 'float', 'Sensor-84': 'float', 'Sensor-85': 'float', 'Sensor-86': 'float', 'Sensor-87': 'float', 'Sensor-88': 'float', 'Sensor-89': 'float', 'Sensor-90': 'float', 'Sensor-91': 'float', 'Sensor-92': 'float', 'Sensor-93': 'float', 'Sensor-94': 'float', 'Sensor-95': 'float', 'Sensor-96': 'float', 'Sensor-97': 'float', 'Sensor-98': 'float', 'Sensor-99': 'float', 'Sensor-100': 'float', 'Sensor-101': 'float', 'Sensor-102': 'float', 'Sensor-103': 'float', 'Sensor-104': 'float', 'Sensor-105': 'float', 'Sensor-106': 'float', 'Sensor-107': 'float', 'Sensor-108': 'float', 'Sensor-109': 'float', 'Sensor-110': 'float', 'Sensor-111': 'float', 'Sensor-112': 'float', 'Sensor-113': 'float', 'Sensor-114': 'float', 'Sensor-115': 'float', 'Sensor-116': 'float', 'Sensor-117': 'float', 'Sensor-118': 'float', 'Sensor-119': 'float', 'Sensor-120': 'float', 'Sensor-121': 'float', 'Sensor-122': 'float', 'Sensor-123': 'float', 'Sensor-124': 'float', 'Sensor-125': 'float', 'Sensor-126': 'float', 'Sensor-127': 'float', 'Sensor-128': 'float', 'Sensor-129': 'float', 'Sensor-130': 'float', 'Sensor-131': 'float', 'Sensor-132': 'float', 'Sensor-133': 'float', 'Sensor-134': 'float', 'Sensor-135': 'float', 'Sensor-136': 'float', 'Sensor-137': 'float', 'Sensor-138': 'float', 'Sensor-139': 'float', 'Sensor-140': 'float', 'Sensor-141': 'float', 'Sensor-142': 'float', 'Sensor-143': 'float', 'Sensor-144': 'float', 'Sensor-145': 'float', 'Sensor-146': 'float', 'Sensor-147': 'float', 'Sensor-148': 'float', 'Sensor-149': 'float', 'Sensor-150': 'float', 'Sensor-151': 'float', 'Sensor-152': 'float', 'Sensor-153': 'float', 'Sensor-154': 'float', 'Sensor-155': 'float', 'Sensor-156': 'float', 'Sensor-157': 'float', 'Sensor-158': 'float', 'Sensor-159': 'float', 'Sensor-160': 'float', 'Sensor-161': 'float', 'Sensor-162': 'float', 'Sensor-163': 'float', 'Sensor-164': 'float', 'Sensor-165': 'float', 'Sensor-166': 'float', 'Sensor-167': 'float', 'Sensor-168': 'float', 'Sensor-169': 'float', 'Sensor-170': 'float', 'Sensor-171': 'float', 'Sensor-172': 'float', 'Sensor-173': 'float', 'Sensor-174': 'float', 'Sensor-175': 'float', 'Sensor-176': 'float', 'Sensor-177': 'float', 'Sensor-178': 'float', 'Sensor-179': 'float', 'Sensor-180': 'float', 'Sensor-181': 'float', 'Sensor-182': 'float', 'Sensor-183': 'float', 'Sensor-184': 'float', 'Sensor-185': 'float', 'Sensor-186': 'float', 'Sensor-187': 'float', 'Sensor-188': 'float', 'Sensor-189': 'float', 'Sensor-190': 'float', 'Sensor-191': 'float', 'Sensor-192': 'float', 'Sensor-193': 'float', 'Sensor-194': 'float', 'Sensor-195': 'float', 'Sensor-196': 'float', 'Sensor-197': 'float', 'Sensor-198': 'float', 'Sensor-199': 'float', 'Sensor-200': 'float', 'Sensor-201': 'float', 'Sensor-202': 'float', 'Sensor-203': 'float', 'Sensor-204': 'float', 'Sensor-205': 'float', 'Sensor-206': 'float', 'Sensor-207': 'float', 'Sensor-208': 'float', 'Sensor-209': 'float', 'Sensor-210': 'float', 'Sensor-211': 'float', 'Sensor-212': 'float', 'Sensor-213': 'float', 'Sensor-214': 'float', 'Sensor-215': 'float', 'Sensor-216': 'float', 'Sensor-217': 'float', 'Sensor-218': 'float', 'Sensor-219': 'float', 'Sensor-220': 'float', 'Sensor-221': 'float', 'Sensor-222': 'float', 'Sensor-223': 'float', 'Sensor-224': 'float', 'Sensor-225': 'float', 'Sensor-226': 'float', 'Sensor-227': 'float', 'Sensor-228': 'float', 'Sensor-229': 'float', 'Sensor-230': 'float', 'Sensor-231': 'float', 'Sensor-232': 'float', 'Sensor-233': 'float', 'Sensor-234': 'float', 'Sensor-235': 'float', 'Sensor-236': 'float', 'Sensor-237': 'float', 'Sensor-238': 'float', 'Sensor-239': 'float', 'Sensor-240': 'float', 'Sensor-241': 'float', 'Sensor-242': 'float', 'Sensor-243': 'float', 'Sensor-244': 'float', 'Sensor-245': 'float', 'Sensor-246': 'float', 'Sensor-247': 'float', 'Sensor-248': 'float', 'Sensor-249': 'float', 'Sensor-250': 'float', 'Sensor-251': 'float', 'Sensor-252': 'float', 'Sensor-253': 'float', 'Sensor-254': 'float', 'Sensor-255': 'float', 'Sensor-256': 'float', 'Sensor-257': 'float', 'Sensor-258': 'float', 'Sensor-259': 'float', 'Sensor-260': 'float', 'Sensor-261': 'float', 'Sensor-262': 'float', 'Sensor-263': 'float', 'Sensor-264': 'float', 'Sensor-265': 'float', 'Sensor-266': 'float', 'Sensor-267': 'float', 'Sensor-268': 'float', 'Sensor-269': 'float', 'Sensor-270': 'float', 'Sensor-271': 'float', 'Sensor-272': 'float', 'Sensor-273': 'float', 'Sensor-274': 'float', 'Sensor-275': 'float', 'Sensor-276': 'float', 'Sensor-277': 'float', 'Sensor-278': 'float', 'Sensor-279': 'float', 'Sensor-280': 'float', 'Sensor-281': 'float', 'Sensor-282': 'float', 'Sensor-283': 'float', 'Sensor-284': 'float', 'Sensor-285': 'float', 'Sensor-286': 'float', 'Sensor-287': 'float', 'Sensor-288': 'float', 'Sensor-289': 'float', 'Sensor-290': 'float', 'Sensor-291': 'float', 'Sensor-292': 'float', 'Sensor-293': 'float', 'Sensor-294': 'float', 'Sensor-295': 'float', 'Sensor-296': 'float', 'Sensor-297': 'float', 'Sensor-298': 'float', 'Sensor-299': 'float', 'Sensor-300': 'float', 'Sensor-301': 'float', 'Sensor-302': 'float', 'Sensor-303': 'float', 'Sensor-304': 'float', 'Sensor-305': 'float', 'Sensor-306': 'float', 'Sensor-307': 'float', 'Sensor-308': 'float', 'Sensor-309': 'float', 'Sensor-310': 'float', 'Sensor-311': 'float', 'Sensor-312': 'float', 'Sensor-313': 'float', 'Sensor-314': 'float', 'Sensor-315': 'float', 'Sensor-316': 'float', 'Sensor-317': 'float', 'Sensor-318': 'float', 'Sensor-319': 'float', 'Sensor-320': 'float', 'Sensor-321': 'float', 'Sensor-322': 'float', 'Sensor-323': 'float', 'Sensor-324': 'float', 'Sensor-325': 'float', 'Sensor-326': 'float', 'Sensor-327': 'float', 'Sensor-328': 'float', 'Sensor-329': 'float', 'Sensor-330': 'float', 'Sensor-331': 'float', 'Sensor-332': 'float', 'Sensor-333': 'float', 'Sensor-334': 'float', 'Sensor-335': 'float', 'Sensor-336': 'float', 'Sensor-337': 'float', 'Sensor-338': 'float', 'Sensor-339': 'float', 'Sensor-340': 'float', 'Sensor-341': 'float', 'Sensor-342': 'float', 'Sensor-343': 'float', 'Sensor-344': 'float', 'Sensor-345': 'float', 'Sensor-346': 'float', 'Sensor-347': 'float', 'Sensor-348': 'float', 'Sensor-349': 'float', 'Sensor-350': 'float', 'Sensor-351': 'float', 'Sensor-352': 'float', 'Sensor-353': 'float', 'Sensor-354': 'float', 'Sensor-355': 'float', 'Sensor-356': 'float', 'Sensor-357': 'float', 'Sensor-358': 'float', 'Sensor-359': 'float', 'Sensor-360': 'float', 'Sensor-361': 'float', 'Sensor-362': 'float', 'Sensor-363': 'float', 'Sensor-364': 'float', 'Sensor-365': 'float', 'Sensor-366': 'float', 'Sensor-367': 'float', 'Sensor-368': 'float', 'Sensor-369': 'float', 'Sensor-370': 'float', 'Sensor-371': 'float', 'Sensor-372': 'float', 'Sensor-373': 'float', 'Sensor-374': 'float', 'Sensor-375': 'float', 'Sensor-376': 'float', 'Sensor-377': 'float', 'Sensor-378': 'float', 'Sensor-379': 'float', 'Sensor-380': 'float', 'Sensor-381': 'float', 'Sensor-382': 'float', 'Sensor-383': 'float', 'Sensor-384': 'float', 'Sensor-385': 'float', 'Sensor-386': 'float', 'Sensor-387': 'float', 'Sensor-388': 'float', 'Sensor-389': 'float', 'Sensor-390': 'float', 'Sensor-391': 'float', 'Sensor-392': 'float', 'Sensor-393': 'float', 'Sensor-394': 'float', 'Sensor-395': 'float', 'Sensor-396': 'float', 'Sensor-397': 'float', 'Sensor-398': 'float', 'Sensor-399': 'float', 'Sensor-400': 'float', 'Sensor-401': 'float', 'Sensor-402': 'float', 'Sensor-403': 'float', 'Sensor-404': 'float', 'Sensor-405': 'float', 'Sensor-406': 'float', 'Sensor-407': 'float', 'Sensor-408': 'float', 'Sensor-409': 'float', 'Sensor-410': 'float', 'Sensor-411': 'float', 'Sensor-412': 'float', 'Sensor-413': 'float', 'Sensor-414': 'float', 'Sensor-415': 'float', 'Sensor-416': 'float', 'Sensor-417': 'float', 'Sensor-418': 'float', 'Sensor-419': 'float', 'Sensor-420': 'float', 'Sensor-421': 'float', 'Sensor-422': 'float', 'Sensor-423': 'float', 'Sensor-424': 'float', 'Sensor-425': 'float', 'Sensor-426': 'float', 'Sensor-427': 'float', 'Sensor-428': 'float', 'Sensor-429': 'float', 'Sensor-430': 'float', 'Sensor-431': 'float', 'Sensor-432': 'float', 'Sensor-433': 'float', 'Sensor-434': 'float', 'Sensor-435': 'float', 'Sensor-436': 'float', 'Sensor-437': 'float', 'Sensor-438': 'float', 'Sensor-439': 'float', 'Sensor-440': 'float', 'Sensor-441': 'float', 'Sensor-442': 'float', 'Sensor-443': 'float', 'Sensor-444': 'float', 'Sensor-445': 'float', 'Sensor-446': 'float', 'Sensor-447': 'float', 'Sensor-448': 'float', 'Sensor-449': 'float', 'Sensor-450': 'float', 'Sensor-451': 'float', 'Sensor-452': 'float', 'Sensor-453': 'float', 'Sensor-454': 'float', 'Sensor-455': 'float', 'Sensor-456': 'float', 'Sensor-457': 'float', 'Sensor-458': 'float', 'Sensor-459': 'float', 'Sensor-460': 'float', 'Sensor-461': 'float', 'Sensor-462': 'float', 'Sensor-463': 'float', 'Sensor-464': 'float', 'Sensor-465': 'float', 'Sensor-466': 'float', 'Sensor-467': 'float', 'Sensor-468': 'float', 'Sensor-469': 'float', 'Sensor-470': 'float', 'Sensor-471': 'float', 'Sensor-472': 'float', 'Sensor-473': 'float', 'Sensor-474': 'float', 'Sensor-475': 'float', 'Sensor-476': 'float', 'Sensor-477': 'float', 'Sensor-478': 'float', 'Sensor-479': 'float', 'Sensor-480': 'float', 'Sensor-481': 'float', 'Sensor-482': 'float', 'Sensor-483': 'float', 'Sensor-484': 'float', 'Sensor-485': 'float', 'Sensor-486': 'float', 'Sensor-487': 'float', 'Sensor-488': 'float', 'Sensor-489': 'float', 'Sensor-490': 'float', 'Sensor-491': 'float', 'Sensor-492': 'float', 'Sensor-493': 'float', 'Sensor-494': 'float', 'Sensor-495': 'float', 'Sensor-496': 'float', 'Sensor-497': 'float', 'Sensor-498': 'float', 'Sensor-499': 'float', 'Sensor-500': 'float', 'Sensor-501': 'float', 'Sensor-502': 'float', 'Sensor-503': 'float', 'Sensor-504': 'float', 'Sensor-505': 'float', 'Sensor-506': 'float', 'Sensor-507': 'float', 'Sensor-508': 'float', 'Sensor-509': 'float', 'Sensor-510': 'float', 'Sensor-511': 'float', 'Sensor-512': 'float', 'Sensor-513': 'float', 'Sensor-514': 'float', 'Sensor-515': 'float', 'Sensor-516': 'float', 'Sensor-517': 'float', 'Sensor-518': 'float', 'Sensor-519': 'float', 'Sensor-520': 'float', 'Sensor-521': 'float', 'Sensor-522': 'float', 'Sensor-523': 'float', 'Sensor-524': 'float', 'Sensor-525': 'float', 'Sensor-526': 'float', 'Sensor-527': 'float', 'Sensor-528': 'float', 'Sensor-529': 'float', 'Sensor-530': 'float', 'Sensor-531': 'float', 'Sensor-532': 'float', 'Sensor-533': 'float', 'Sensor-534': 'float', 'Sensor-535': 'float', 'Sensor-536': 'float', 'Sensor-537': 'float', 'Sensor-538': 'float', 'Sensor-539': 'float', 'Sensor-540': 'float', 'Sensor-541': 'float', 'Sensor-542': 'float', 'Sensor-543': 'float', 'Sensor-544': 'float', 'Sensor-545': 'float', 'Sensor-546': 'float', 'Sensor-547': 'float', 'Sensor-548': 'float', 'Sensor-549': 'float', 'Sensor-550': 'float', 'Sensor-551': 'float', 'Sensor-552': 'float', 'Sensor-553': 'float', 'Sensor-554': 'float', 'Sensor-555': 'float', 'Sensor-556': 'float', 'Sensor-557': 'float', 'Sensor-558': 'float', 'Sensor-559': 'float', 'Sensor-560': 'float', 'Sensor-561': 'float', 'Sensor-562': 'float', 'Sensor-563': 'float', 'Sensor-564': 'float', 'Sensor-565': 'float', 'Sensor-566': 'float', 'Sensor-567': 'float', 'Sensor-568': 'float', 'Sensor-569': 'float', 'Sensor-570': 'float', 'Sensor-571': 'float', 'Sensor-572': 'float', 'Sensor-573': 'float', 'Sensor-574': 'float', 'Sensor-575': 'float', 'Sensor-576': 'float', 'Sensor-577': 'float', 'Sensor-578': 'float', 'Sensor-579': 'float', 'Sensor-580': 'float', 'Sensor-581': 'float', 'Sensor-582': 'float', 'Sensor-583': 'float', 'Sensor-584': 'float', 'Sensor-585': 'float', 'Sensor-586': 'float', 'Sensor-587': 'float', 'Sensor-588': 'float', 'Sensor-589': 'float', 'Sensor-590': 'float', 'Output': 'Integer'}
+2021-07-16 :: 23:24:21.378070 :::: Schema Validated Successfully
+2021-07-16 :: 23:24:21.625574 :::: Validating the file names
+2021-07-16 :: 23:24:21.797721 :::: Invalid file!! Wafer12_20012.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:21.939585 :::: Invalid file!! Waferdefault_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.172559 :::: Invalid file!! Wafer_07012020_000000.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.223198 :::: wafer_07012020_041011.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:22.261581 :::: Invalid file!! Wafer_07012020_223345.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.334451 :::: Invalid file!! Wafer_08012020_120000.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.703090 :::: Invalid file!! Wafer_10012020_131534.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.749953 :::: Invalid file!! Wafer_11012020_151432.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.867765 :::: Invalid file!! Wafer_12012020_111.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:22.928616 :::: Invalid file!! Wafer_12012020_111213.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.001593 :::: wafer_13012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:23.042372 :::: Invalid file!! Wafer_13012020_141000.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.081312 :::: Invalid file!! Wafer_14012020_113045.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.113684 :::: Invalid file!! Wafer_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.194703 :::: Invalid file!! Wafer_15012020_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.235255 :::: wafer_16012020_051629.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:23.285785 :::: wafer_16012020_134553.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:23.560147 :::: wafer_17012020_125434.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:23.679866 :::: Invalid file!! Wafer_18012020_121532.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.722653 :::: Invalid file!! Wafer_19012020_141432.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:23.773299 :::: wafer_20012020_090819.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:23.945344 :::: Invalid file!! Wafer_20012020_135132.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.046726 :::: wafer_20022020_090716.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.095926 :::: wafer_21012020_080913.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.138476 :::: Invalid file!! Wafer_21012020_143634.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.239868 :::: Invalid file!! Wafer_22012020_173245.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.341024 :::: wafer_22022020_041119.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.391698 :::: wafer_23012020_011008.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.482673 :::: wafer_23012020_041211.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.573761 :::: Invalid file!! Wafer_23012020_163456.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.735798 :::: Invalid file!! Wafer_24012020_150121.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.786329 :::: Invalid file!! Wafer_25012020_142112.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:24.836991 :::: wafer_27012020_080911.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:24.912152 :::: wafer_28012020_051011.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.112768 :::: wafer_28012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.244312 :::: wafer_28042020_031911.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.344595 :::: wafer_29012020_050617.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.429248 :::: wafer_29012020_060756.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.498272 :::: wafer_31012020_090811.csv moved to Clean_batch_files/Training/good
+2021-07-16 :: 23:24:25.545147 :::: Invalid file!! Wafer_fault_detection.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:25.582960 :::: Invalid file!! Wafer_text_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:25.582960 :::: Total file:41::Valid :18::Invalid :23
+2021-07-16 :: 23:24:25.582960 :::: File name validation successfully completed !!
+2021-07-16 :: 23:24:25.883613 :::: Validating the number of columns and there names!!
+2021-07-16 :: 23:24:32.089495 :::: Invalid number of columns!! wafer_16012020_134553.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:32.667938 :::: Invalid number of columns!! wafer_17012020_125434.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:49.323943 :::: Total files:18::Valid :16::Invalid :2
+2021-07-16 :: 23:24:49.323943 :::: No. of columns validated successfully !!
+2021-07-16 :: 23:24:49.471669 :::: Validating missing values in columns !!
+2021-07-16 :: 23:24:49.740345 :::: Has missing column!! wafer_07012020_041011.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:51.274937 :::: Has missing column!! wafer_20012020_090819.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:52.137008 :::: Has missing column!! wafer_22022020_041119.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:52.300818 :::: Has missing column!! wafer_23012020_011008.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:53.152468 :::: Has missing column!! wafer_28012020_051011.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:54.938022 :::: Has missing column!! wafer_29012020_060756.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:55.346816 :::: Has missing column!! wafer_31012020_090811.csv moved to Clean_batch_files/Training/bad
+2021-07-16 :: 23:24:55.346816 :::: Total files:16::Valid :9::Invalid :7
+2021-07-16 :: 23:24:55.346816 :::: Missing values updated successfully !!
+2021-07-16 :: 23:24:55.377265 :::: Data Transformation by updating the null values!!
+2021-07-16 :: 23:25:14.726537 :::: Data Transformation completed successfully!!
+2021-07-16 :: 23:25:14.742163 :::: Creating table TRAIN_DATA in Database TRAIN !!
+2021-07-16 :: 23:25:14.742163 :::: Connecting to DB
+2021-07-16 :: 23:27:23.269335 :::: Table creation Successful !!
+2021-07-16 :: 23:27:23.284923 :::: Inserting data into TRAIN_DATA in Database TRAIN !!
+2021-07-16 :: 23:27:23.284923 :::: Connecting to DB
+2021-07-16 :: 23:27:27.857345 :::: wafer_13012020_090817.csv inserted successfully!!
+2021-07-16 :: 23:27:28.400697 :::: wafer_16012020_051629.csv inserted successfully!!
+2021-07-16 :: 23:27:29.003269 :::: wafer_20022020_090716.csv inserted successfully!!
+2021-07-16 :: 23:27:29.523989 :::: wafer_21012020_080913.csv inserted successfully!!
+2021-07-16 :: 23:27:30.001490 :::: wafer_23012020_041211.csv inserted successfully!!
+2021-07-16 :: 23:27:30.471682 :::: wafer_27012020_080911.csv inserted successfully!!
+2021-07-16 :: 23:27:30.904048 :::: wafer_28012020_090817.csv inserted successfully!!
+2021-07-16 :: 23:27:31.374281 :::: wafer_28042020_031911.csv inserted successfully!!
+2021-07-16 :: 23:27:31.791086 :::: wafer_29012020_050617.csv inserted successfully!!
+2021-07-16 :: 23:27:31.791086 :::: Inserted data Successfully !!
+2021-07-16 :: 23:27:31.791086 :::: Pulling the data from database!!
+2021-07-16 :: 23:27:31.791086 :::: Connecting to DB
+2021-07-16 :: 23:27:32.592552 :::: Transferred the data to csv file Final_csv/train_Input.csv !!
+2021-07-17 :: 00:03:30.051313 :::: Training Started !!
+2021-07-17 :: 00:03:30.051313 :::: Reading the complete data...
+2021-07-17 :: 00:03:30.608654 :::: Removing Wafer Column
+2021-07-17 :: 00:03:57.315769 :::: Training Started !!
+2021-07-17 :: 00:03:57.315769 :::: Reading the complete data...
+2021-07-17 :: 00:03:57.568770 :::: Removing Wafer Column
+2021-07-17 :: 00:04:05.618074 :::: Training Started !!
+2021-07-17 :: 00:04:05.618074 :::: Reading the complete data...
+2021-07-17 :: 00:04:05.792854 :::: Removing Wafer Column
+2021-07-17 :: 00:04:21.947084 :::: Training Started !!
+2021-07-17 :: 00:04:21.947084 :::: Reading the complete data...
+2021-07-17 :: 00:04:22.130394 :::: Removing Wafer Column
+2021-07-17 :: 00:07:47.238239 :::: Training Started !!
+2021-07-17 :: 00:07:47.238239 :::: Reading the complete data...
+2021-07-17 :: 00:07:47.407869 :::: Removing Wafer Column
+2021-07-17 :: 00:08:01.611477 :::: Training Started !!
+2021-07-17 :: 00:08:01.611477 :::: Reading the complete data...
+2021-07-17 :: 00:08:01.786477 :::: Removing Wafer Column
+2021-07-17 :: 00:08:28.099981 :::: Training Started !!
+2021-07-17 :: 00:08:28.099981 :::: Reading the complete data...
+2021-07-17 :: 00:08:28.246715 :::: Removing Wafer Column
+2021-07-17 :: 00:08:38.848907 :::: Training Started !!
+2021-07-17 :: 00:08:38.848907 :::: Reading the complete data...
+2021-07-17 :: 00:08:38.995999 :::: Removing Wafer Column
+2021-07-17 :: 00:09:50.851554 :::: Training Started !!
+2021-07-17 :: 00:09:50.851554 :::: Reading the complete data...
+2021-07-17 :: 00:09:50.991014 :::: Removing Wafer Column
+2021-07-17 :: 00:10:04.172220 :::: Training Started !!
+2021-07-17 :: 00:10:04.172220 :::: Reading the complete data...
+2021-07-17 :: 00:10:04.310216 :::: Removing Wafer Column
+2021-07-17 :: 00:10:29.232942 :::: Training Started !!
+2021-07-17 :: 00:10:29.232942 :::: Reading the complete data...
+2021-07-17 :: 00:10:29.372022 :::: Removing Wafer Column
+2021-07-17 :: 00:26:27.113729 :::: Training Started !!
+2021-07-17 :: 00:26:27.113729 :::: Reading the complete data...
+2021-07-17 :: 00:26:27.257993 :::: Removing Wafer Column
+2021-07-17 :: 00:27:15.485754 :::: Training Started !!
+2021-07-17 :: 00:27:15.485754 :::: Reading the complete data...
+2021-07-17 :: 00:27:15.622256 :::: Removing Wafer Column
+2021-07-17 :: 00:27:48.874596 :::: Training Started !!
+2021-07-17 :: 00:27:48.874596 :::: Reading the complete data...
+2021-07-17 :: 00:27:49.010883 :::: Removing Wafer Column
+2021-07-17 :: 00:29:05.827874 :::: Training Started !!
+2021-07-17 :: 00:29:05.827874 :::: Reading the complete data...
+2021-07-17 :: 00:29:05.972871 :::: Removing Wafer Column
+2021-07-17 :: 00:29:52.412854 :::: Training Started !!
+2021-07-17 :: 00:29:52.412854 :::: Reading the complete data...
+2021-07-17 :: 00:29:52.572338 :::: Removing Wafer Column
+2021-07-17 :: 00:30:27.202365 :::: Training Started !!
+2021-07-17 :: 00:30:27.202365 :::: Reading the complete data...
+2021-07-17 :: 00:30:27.341767 :::: Removing Wafer Column
+2021-07-17 :: 00:30:52.581100 :::: Training Started !!
+2021-07-17 :: 00:30:52.581100 :::: Reading the complete data...
+2021-07-17 :: 00:30:52.723269 :::: Removing Wafer Column
+2021-07-17 :: 00:32:34.603117 :::: Training Started !!
+2021-07-17 :: 00:32:34.603117 :::: Reading the complete data...
+2021-07-17 :: 00:32:34.740871 :::: Removing Wafer Column
+2021-07-17 :: 00:32:59.542002 :::: Training Started !!
+2021-07-17 :: 00:32:59.542002 :::: Reading the complete data...
+2021-07-17 :: 00:32:59.687001 :::: Removing Wafer Column
+2021-07-17 :: 00:33:49.735269 :::: Training Started !!
+2021-07-17 :: 00:33:49.735269 :::: Reading the complete data...
+2021-07-17 :: 00:33:49.906330 :::: Removing Wafer Column
+2021-07-17 :: 00:34:25.905516 :::: Training Started !!
+2021-07-17 :: 00:34:25.905516 :::: Reading the complete data...
+2021-07-17 :: 00:34:26.039965 :::: Removing Wafer Column
+2021-07-17 :: 00:35:26.083806 :::: Training Started !!
+2021-07-17 :: 00:35:26.083806 :::: Reading the complete data...
+2021-07-17 :: 00:35:26.248024 :::: Removing Wafer Column
+2021-07-17 :: 00:35:49.407414 :::: Training Started !!
+2021-07-17 :: 00:35:49.407414 :::: Reading the complete data...
+2021-07-17 :: 00:35:49.544744 :::: Removing Wafer Column
+2021-07-17 :: 00:37:23.676263 :::: Training Started !!
+2021-07-17 :: 00:37:23.676263 :::: Reading the complete data...
+2021-07-17 :: 00:37:23.808310 :::: Removing Wafer Column
+2021-07-17 :: 00:37:42.097361 :::: Training Started !!
+2021-07-17 :: 00:37:42.097361 :::: Reading the complete data...
+2021-07-17 :: 00:37:42.236072 :::: Removing Wafer Column
+2021-07-17 :: 00:40:33.370954 :::: Training Started !!
+2021-07-17 :: 00:40:33.370954 :::: Reading the complete data...
+2021-07-17 :: 00:40:33.516116 :::: Removing Wafer Column
+2021-07-17 :: 00:41:17.175294 :::: Training Started !!
+2021-07-17 :: 00:41:17.175294 :::: Reading the complete data...
+2021-07-17 :: 00:41:17.309460 :::: Removing Wafer Column
+2021-07-17 :: 00:41:33.158320 :::: Training Started !!
+2021-07-17 :: 00:41:33.158320 :::: Reading the complete data...
+2021-07-17 :: 00:41:33.301859 :::: Removing Wafer Column
+2021-07-17 :: 00:43:11.898901 :::: Training Started !!
+2021-07-17 :: 00:43:11.898901 :::: Reading the complete data...
+2021-07-17 :: 00:43:12.065913 :::: Removing Wafer Column
+2021-07-17 :: 00:43:41.984654 :::: Training Started !!
+2021-07-17 :: 00:43:41.984654 :::: Reading the complete data...
+2021-07-17 :: 00:43:42.170313 :::: Removing Wafer Column
+2021-07-17 :: 00:49:08.057174 :::: Training Started !!
+2021-07-17 :: 00:49:08.057174 :::: Reading the complete data...
+2021-07-17 :: 00:49:08.211165 :::: Removing Wafer Column
+2021-07-17 :: 00:49:42.886529 :::: Training Started !!
+2021-07-17 :: 00:49:42.886529 :::: Reading the complete data...
+2021-07-17 :: 00:49:43.039225 :::: Removing Wafer Column
+2021-07-17 :: 00:50:00.739801 :::: Training Started !!
+2021-07-17 :: 00:50:00.739801 :::: Reading the complete data...
+2021-07-17 :: 00:50:00.878801 :::: Removing Wafer Column
+2021-07-17 :: 00:50:35.041533 :::: Training Started !!
+2021-07-17 :: 00:50:35.041533 :::: Reading the complete data...
+2021-07-17 :: 00:50:35.178121 :::: Removing Wafer Column
+2021-07-17 :: 00:52:08.604493 :::: Training Started !!
+2021-07-17 :: 00:52:08.604493 :::: Reading the complete data...
+2021-07-17 :: 00:52:08.739486 :::: Removing Wafer Column
+2021-07-17 :: 00:53:46.416291 :::: Training Started !!
+2021-07-17 :: 00:53:46.416291 :::: Reading the complete data...
+2021-07-17 :: 00:53:46.558439 :::: Removing Wafer Column
+2021-07-17 :: 00:54:32.255460 :::: Training Started !!
+2021-07-17 :: 00:54:32.255460 :::: Reading the complete data...
+2021-07-17 :: 00:54:32.389955 :::: Removing Wafer Column
+2021-07-17 :: 00:55:07.886279 :::: Training Started !!
+2021-07-17 :: 00:55:07.886279 :::: Reading the complete data...
+2021-07-17 :: 00:55:08.050149 :::: Removing Wafer Column
+2021-07-17 :: 00:55:39.624409 :::: Training Started !!
+2021-07-17 :: 00:55:39.624409 :::: Reading the complete data...
+2021-07-17 :: 00:55:39.764584 :::: Removing Wafer Column
+2021-07-17 :: 00:57:00.397086 :::: Training Started !!
+2021-07-17 :: 00:57:00.397086 :::: Reading the complete data...
+2021-07-17 :: 00:57:00.536090 :::: Removing Wafer Column
+2021-07-17 :: 01:07:15.699967 :::: Training Started !!
+2021-07-17 :: 01:07:15.699967 :::: Reading the complete data...
+2021-07-17 :: 01:07:15.836491 :::: Removing Wafer Column
+2021-07-17 :: 01:08:19.951490 :::: Training Started !!
+2021-07-17 :: 01:08:19.951490 :::: Reading the complete data...
+2021-07-17 :: 01:08:20.091973 :::: Removing Wafer Column
+2021-07-17 :: 15:51:55.737829 :::: Training Started !!
+2021-07-17 :: 15:51:55.737829 :::: Reading the complete data...
+2021-07-17 :: 15:51:56.071868 :::: Removing Wafer Column
+2021-07-17 :: 15:53:34.208626 :::: Training Started !!
+2021-07-17 :: 15:53:34.208626 :::: Reading the complete data...
+2021-07-17 :: 15:54:22.211025 :::: Training Started !!
+2021-07-17 :: 15:54:22.211025 :::: Reading the complete data...
+2021-07-17 :: 15:55:41.201036 :::: Training Started !!
+2021-07-17 :: 15:55:41.201036 :::: Reading the complete data...
+2021-07-17 :: 15:56:36.592639 :::: Training Started !!
+2021-07-17 :: 15:56:36.592639 :::: Reading the complete data...
+2021-07-17 :: 15:56:36.728642 :::: Removing Wafer Column
+2021-07-17 :: 15:57:54.933278 :::: Training Started !!
+2021-07-17 :: 15:57:54.933278 :::: Reading the complete data...
+2021-07-17 :: 16:00:14.193642 :::: Training Started !!
+2021-07-17 :: 16:00:14.193642 :::: Reading the complete data...
+2021-07-17 :: 16:05:21.402194 :::: Training Started !!
+2021-07-17 :: 16:05:21.402194 :::: Reading the complete data...
+2021-07-17 :: 16:07:06.072478 :::: Training Started !!
+2021-07-17 :: 16:07:06.073477 :::: Reading the complete data...
+2021-07-17 :: 16:08:13.708704 :::: Training Started !!
+2021-07-17 :: 16:08:13.708704 :::: Reading the complete data...
+2021-07-17 :: 16:08:13.846450 :::: Removing Wafer Column
+2021-07-17 :: 16:09:25.057429 :::: Training Started !!
+2021-07-17 :: 16:09:25.057429 :::: Reading the complete data...
+2021-07-17 :: 16:09:25.206430 :::: Removing Wafer Column
+2021-07-17 :: 16:09:56.091134 :::: Training Started !!
+2021-07-17 :: 16:09:56.091134 :::: Reading the complete data...
+2021-07-17 :: 16:09:56.221529 :::: Removing Wafer Column
+2021-07-17 :: 16:10:25.670312 :::: Training Started !!
+2021-07-17 :: 16:10:25.670312 :::: Reading the complete data...
+2021-07-17 :: 16:10:25.816314 :::: Removing Wafer Column
+2021-07-17 :: 16:19:03.726493 :::: Training Started !!
+2021-07-17 :: 16:19:03.726493 :::: Reading the complete data...
+2021-07-17 :: 16:19:03.866416 :::: Removing Wafer Column
+2021-07-17 :: 16:29:15.008970 :::: Training Started !!
+2021-07-17 :: 16:29:15.008970 :::: Reading the complete data...
+2021-07-17 :: 16:34:27.370190 :::: Training Started !!
+2021-07-17 :: 16:34:27.370190 :::: Reading the complete data...
+2021-07-17 :: 16:34:27.511192 :::: Removing Wafer Column
+2021-07-17 :: 16:34:53.473540 :::: Training Started !!
+2021-07-17 :: 16:34:53.473540 :::: Reading the complete data...
+2021-07-17 :: 16:34:53.605074 :::: Removing Wafer Column
+2021-07-17 :: 16:38:43.097760 :::: Training Started !!
+2021-07-17 :: 16:38:43.097760 :::: Reading the complete data...
+2021-07-17 :: 16:38:43.229298 :::: Removing Wafer Column
+2021-07-17 :: 16:40:37.517015 :::: Training Started !!
+2021-07-17 :: 16:40:37.518016 :::: Reading the complete data...
+2021-07-17 :: 16:40:37.656020 :::: Removing Wafer Column
+2021-07-17 :: 16:43:00.737380 :::: Training Started !!
+2021-07-17 :: 16:43:00.737380 :::: Reading the complete data...
+2021-07-17 :: 16:51:11.194311 :::: Training Started !!
+2021-07-17 :: 16:51:11.194311 :::: Reading the complete data...
+2021-07-17 :: 16:51:11.331307 :::: Removing Wafer Column
+2021-07-17 :: 23:11:32.506149 :::: Validating Expected Schema
+2021-07-17 :: 23:11:32.536168 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6||No of Columns::592||Column names::{'Wafer': 'varchar', 'Sensor-1': 'float', 'Sensor-2': 'float', 'Sensor-3': 'float', 'Sensor-4': 'float', 'Sensor-5': 'float', 'Sensor-6': 'float', 'Sensor-7': 'float', 'Sensor-8': 'float', 'Sensor-9': 'float', 'Sensor-10': 'float', 'Sensor-11': 'float', 'Sensor-12': 'float', 'Sensor-13': 'float', 'Sensor-14': 'float', 'Sensor-15': 'float', 'Sensor-16': 'float', 'Sensor-17': 'float', 'Sensor-18': 'float', 'Sensor-19': 'float', 'Sensor-20': 'float', 'Sensor-21': 'float', 'Sensor-22': 'float', 'Sensor-23': 'float', 'Sensor-24': 'float', 'Sensor-25': 'float', 'Sensor-26': 'float', 'Sensor-27': 'float', 'Sensor-28': 'float', 'Sensor-29': 'float', 'Sensor-30': 'float', 'Sensor-31': 'float', 'Sensor-32': 'float', 'Sensor-33': 'float', 'Sensor-34': 'float', 'Sensor-35': 'float', 'Sensor-36': 'float', 'Sensor-37': 'float', 'Sensor-38': 'float', 'Sensor-39': 'float', 'Sensor-40': 'float', 'Sensor-41': 'float', 'Sensor-42': 'float', 'Sensor-43': 'float', 'Sensor-44': 'float', 'Sensor-45': 'float', 'Sensor-46': 'float', 'Sensor-47': 'float', 'Sensor-48': 'float', 'Sensor-49': 'float', 'Sensor-50': 'float', 'Sensor-51': 'float', 'Sensor-52': 'float', 'Sensor-53': 'float', 'Sensor-54': 'float', 'Sensor-55': 'float', 'Sensor-56': 'float', 'Sensor-57': 'float', 'Sensor-58': 'float', 'Sensor-59': 'float', 'Sensor-60': 'float', 'Sensor-61': 'float', 'Sensor-62': 'float', 'Sensor-63': 'float', 'Sensor-64': 'float', 'Sensor-65': 'float', 'Sensor-66': 'float', 'Sensor-67': 'float', 'Sensor-68': 'float', 'Sensor-69': 'float', 'Sensor-70': 'float', 'Sensor-71': 'float', 'Sensor-72': 'float', 'Sensor-73': 'float', 'Sensor-74': 'float', 'Sensor-75': 'float', 'Sensor-76': 'float', 'Sensor-77': 'float', 'Sensor-78': 'float', 'Sensor-79': 'float', 'Sensor-80': 'float', 'Sensor-81': 'float', 'Sensor-82': 'float', 'Sensor-83': 'float', 'Sensor-84': 'float', 'Sensor-85': 'float', 'Sensor-86': 'float', 'Sensor-87': 'float', 'Sensor-88': 'float', 'Sensor-89': 'float', 'Sensor-90': 'float', 'Sensor-91': 'float', 'Sensor-92': 'float', 'Sensor-93': 'float', 'Sensor-94': 'float', 'Sensor-95': 'float', 'Sensor-96': 'float', 'Sensor-97': 'float', 'Sensor-98': 'float', 'Sensor-99': 'float', 'Sensor-100': 'float', 'Sensor-101': 'float', 'Sensor-102': 'float', 'Sensor-103': 'float', 'Sensor-104': 'float', 'Sensor-105': 'float', 'Sensor-106': 'float', 'Sensor-107': 'float', 'Sensor-108': 'float', 'Sensor-109': 'float', 'Sensor-110': 'float', 'Sensor-111': 'float', 'Sensor-112': 'float', 'Sensor-113': 'float', 'Sensor-114': 'float', 'Sensor-115': 'float', 'Sensor-116': 'float', 'Sensor-117': 'float', 'Sensor-118': 'float', 'Sensor-119': 'float', 'Sensor-120': 'float', 'Sensor-121': 'float', 'Sensor-122': 'float', 'Sensor-123': 'float', 'Sensor-124': 'float', 'Sensor-125': 'float', 'Sensor-126': 'float', 'Sensor-127': 'float', 'Sensor-128': 'float', 'Sensor-129': 'float', 'Sensor-130': 'float', 'Sensor-131': 'float', 'Sensor-132': 'float', 'Sensor-133': 'float', 'Sensor-134': 'float', 'Sensor-135': 'float', 'Sensor-136': 'float', 'Sensor-137': 'float', 'Sensor-138': 'float', 'Sensor-139': 'float', 'Sensor-140': 'float', 'Sensor-141': 'float', 'Sensor-142': 'float', 'Sensor-143': 'float', 'Sensor-144': 'float', 'Sensor-145': 'float', 'Sensor-146': 'float', 'Sensor-147': 'float', 'Sensor-148': 'float', 'Sensor-149': 'float', 'Sensor-150': 'float', 'Sensor-151': 'float', 'Sensor-152': 'float', 'Sensor-153': 'float', 'Sensor-154': 'float', 'Sensor-155': 'float', 'Sensor-156': 'float', 'Sensor-157': 'float', 'Sensor-158': 'float', 'Sensor-159': 'float', 'Sensor-160': 'float', 'Sensor-161': 'float', 'Sensor-162': 'float', 'Sensor-163': 'float', 'Sensor-164': 'float', 'Sensor-165': 'float', 'Sensor-166': 'float', 'Sensor-167': 'float', 'Sensor-168': 'float', 'Sensor-169': 'float', 'Sensor-170': 'float', 'Sensor-171': 'float', 'Sensor-172': 'float', 'Sensor-173': 'float', 'Sensor-174': 'float', 'Sensor-175': 'float', 'Sensor-176': 'float', 'Sensor-177': 'float', 'Sensor-178': 'float', 'Sensor-179': 'float', 'Sensor-180': 'float', 'Sensor-181': 'float', 'Sensor-182': 'float', 'Sensor-183': 'float', 'Sensor-184': 'float', 'Sensor-185': 'float', 'Sensor-186': 'float', 'Sensor-187': 'float', 'Sensor-188': 'float', 'Sensor-189': 'float', 'Sensor-190': 'float', 'Sensor-191': 'float', 'Sensor-192': 'float', 'Sensor-193': 'float', 'Sensor-194': 'float', 'Sensor-195': 'float', 'Sensor-196': 'float', 'Sensor-197': 'float', 'Sensor-198': 'float', 'Sensor-199': 'float', 'Sensor-200': 'float', 'Sensor-201': 'float', 'Sensor-202': 'float', 'Sensor-203': 'float', 'Sensor-204': 'float', 'Sensor-205': 'float', 'Sensor-206': 'float', 'Sensor-207': 'float', 'Sensor-208': 'float', 'Sensor-209': 'float', 'Sensor-210': 'float', 'Sensor-211': 'float', 'Sensor-212': 'float', 'Sensor-213': 'float', 'Sensor-214': 'float', 'Sensor-215': 'float', 'Sensor-216': 'float', 'Sensor-217': 'float', 'Sensor-218': 'float', 'Sensor-219': 'float', 'Sensor-220': 'float', 'Sensor-221': 'float', 'Sensor-222': 'float', 'Sensor-223': 'float', 'Sensor-224': 'float', 'Sensor-225': 'float', 'Sensor-226': 'float', 'Sensor-227': 'float', 'Sensor-228': 'float', 'Sensor-229': 'float', 'Sensor-230': 'float', 'Sensor-231': 'float', 'Sensor-232': 'float', 'Sensor-233': 'float', 'Sensor-234': 'float', 'Sensor-235': 'float', 'Sensor-236': 'float', 'Sensor-237': 'float', 'Sensor-238': 'float', 'Sensor-239': 'float', 'Sensor-240': 'float', 'Sensor-241': 'float', 'Sensor-242': 'float', 'Sensor-243': 'float', 'Sensor-244': 'float', 'Sensor-245': 'float', 'Sensor-246': 'float', 'Sensor-247': 'float', 'Sensor-248': 'float', 'Sensor-249': 'float', 'Sensor-250': 'float', 'Sensor-251': 'float', 'Sensor-252': 'float', 'Sensor-253': 'float', 'Sensor-254': 'float', 'Sensor-255': 'float', 'Sensor-256': 'float', 'Sensor-257': 'float', 'Sensor-258': 'float', 'Sensor-259': 'float', 'Sensor-260': 'float', 'Sensor-261': 'float', 'Sensor-262': 'float', 'Sensor-263': 'float', 'Sensor-264': 'float', 'Sensor-265': 'float', 'Sensor-266': 'float', 'Sensor-267': 'float', 'Sensor-268': 'float', 'Sensor-269': 'float', 'Sensor-270': 'float', 'Sensor-271': 'float', 'Sensor-272': 'float', 'Sensor-273': 'float', 'Sensor-274': 'float', 'Sensor-275': 'float', 'Sensor-276': 'float', 'Sensor-277': 'float', 'Sensor-278': 'float', 'Sensor-279': 'float', 'Sensor-280': 'float', 'Sensor-281': 'float', 'Sensor-282': 'float', 'Sensor-283': 'float', 'Sensor-284': 'float', 'Sensor-285': 'float', 'Sensor-286': 'float', 'Sensor-287': 'float', 'Sensor-288': 'float', 'Sensor-289': 'float', 'Sensor-290': 'float', 'Sensor-291': 'float', 'Sensor-292': 'float', 'Sensor-293': 'float', 'Sensor-294': 'float', 'Sensor-295': 'float', 'Sensor-296': 'float', 'Sensor-297': 'float', 'Sensor-298': 'float', 'Sensor-299': 'float', 'Sensor-300': 'float', 'Sensor-301': 'float', 'Sensor-302': 'float', 'Sensor-303': 'float', 'Sensor-304': 'float', 'Sensor-305': 'float', 'Sensor-306': 'float', 'Sensor-307': 'float', 'Sensor-308': 'float', 'Sensor-309': 'float', 'Sensor-310': 'float', 'Sensor-311': 'float', 'Sensor-312': 'float', 'Sensor-313': 'float', 'Sensor-314': 'float', 'Sensor-315': 'float', 'Sensor-316': 'float', 'Sensor-317': 'float', 'Sensor-318': 'float', 'Sensor-319': 'float', 'Sensor-320': 'float', 'Sensor-321': 'float', 'Sensor-322': 'float', 'Sensor-323': 'float', 'Sensor-324': 'float', 'Sensor-325': 'float', 'Sensor-326': 'float', 'Sensor-327': 'float', 'Sensor-328': 'float', 'Sensor-329': 'float', 'Sensor-330': 'float', 'Sensor-331': 'float', 'Sensor-332': 'float', 'Sensor-333': 'float', 'Sensor-334': 'float', 'Sensor-335': 'float', 'Sensor-336': 'float', 'Sensor-337': 'float', 'Sensor-338': 'float', 'Sensor-339': 'float', 'Sensor-340': 'float', 'Sensor-341': 'float', 'Sensor-342': 'float', 'Sensor-343': 'float', 'Sensor-344': 'float', 'Sensor-345': 'float', 'Sensor-346': 'float', 'Sensor-347': 'float', 'Sensor-348': 'float', 'Sensor-349': 'float', 'Sensor-350': 'float', 'Sensor-351': 'float', 'Sensor-352': 'float', 'Sensor-353': 'float', 'Sensor-354': 'float', 'Sensor-355': 'float', 'Sensor-356': 'float', 'Sensor-357': 'float', 'Sensor-358': 'float', 'Sensor-359': 'float', 'Sensor-360': 'float', 'Sensor-361': 'float', 'Sensor-362': 'float', 'Sensor-363': 'float', 'Sensor-364': 'float', 'Sensor-365': 'float', 'Sensor-366': 'float', 'Sensor-367': 'float', 'Sensor-368': 'float', 'Sensor-369': 'float', 'Sensor-370': 'float', 'Sensor-371': 'float', 'Sensor-372': 'float', 'Sensor-373': 'float', 'Sensor-374': 'float', 'Sensor-375': 'float', 'Sensor-376': 'float', 'Sensor-377': 'float', 'Sensor-378': 'float', 'Sensor-379': 'float', 'Sensor-380': 'float', 'Sensor-381': 'float', 'Sensor-382': 'float', 'Sensor-383': 'float', 'Sensor-384': 'float', 'Sensor-385': 'float', 'Sensor-386': 'float', 'Sensor-387': 'float', 'Sensor-388': 'float', 'Sensor-389': 'float', 'Sensor-390': 'float', 'Sensor-391': 'float', 'Sensor-392': 'float', 'Sensor-393': 'float', 'Sensor-394': 'float', 'Sensor-395': 'float', 'Sensor-396': 'float', 'Sensor-397': 'float', 'Sensor-398': 'float', 'Sensor-399': 'float', 'Sensor-400': 'float', 'Sensor-401': 'float', 'Sensor-402': 'float', 'Sensor-403': 'float', 'Sensor-404': 'float', 'Sensor-405': 'float', 'Sensor-406': 'float', 'Sensor-407': 'float', 'Sensor-408': 'float', 'Sensor-409': 'float', 'Sensor-410': 'float', 'Sensor-411': 'float', 'Sensor-412': 'float', 'Sensor-413': 'float', 'Sensor-414': 'float', 'Sensor-415': 'float', 'Sensor-416': 'float', 'Sensor-417': 'float', 'Sensor-418': 'float', 'Sensor-419': 'float', 'Sensor-420': 'float', 'Sensor-421': 'float', 'Sensor-422': 'float', 'Sensor-423': 'float', 'Sensor-424': 'float', 'Sensor-425': 'float', 'Sensor-426': 'float', 'Sensor-427': 'float', 'Sensor-428': 'float', 'Sensor-429': 'float', 'Sensor-430': 'float', 'Sensor-431': 'float', 'Sensor-432': 'float', 'Sensor-433': 'float', 'Sensor-434': 'float', 'Sensor-435': 'float', 'Sensor-436': 'float', 'Sensor-437': 'float', 'Sensor-438': 'float', 'Sensor-439': 'float', 'Sensor-440': 'float', 'Sensor-441': 'float', 'Sensor-442': 'float', 'Sensor-443': 'float', 'Sensor-444': 'float', 'Sensor-445': 'float', 'Sensor-446': 'float', 'Sensor-447': 'float', 'Sensor-448': 'float', 'Sensor-449': 'float', 'Sensor-450': 'float', 'Sensor-451': 'float', 'Sensor-452': 'float', 'Sensor-453': 'float', 'Sensor-454': 'float', 'Sensor-455': 'float', 'Sensor-456': 'float', 'Sensor-457': 'float', 'Sensor-458': 'float', 'Sensor-459': 'float', 'Sensor-460': 'float', 'Sensor-461': 'float', 'Sensor-462': 'float', 'Sensor-463': 'float', 'Sensor-464': 'float', 'Sensor-465': 'float', 'Sensor-466': 'float', 'Sensor-467': 'float', 'Sensor-468': 'float', 'Sensor-469': 'float', 'Sensor-470': 'float', 'Sensor-471': 'float', 'Sensor-472': 'float', 'Sensor-473': 'float', 'Sensor-474': 'float', 'Sensor-475': 'float', 'Sensor-476': 'float', 'Sensor-477': 'float', 'Sensor-478': 'float', 'Sensor-479': 'float', 'Sensor-480': 'float', 'Sensor-481': 'float', 'Sensor-482': 'float', 'Sensor-483': 'float', 'Sensor-484': 'float', 'Sensor-485': 'float', 'Sensor-486': 'float', 'Sensor-487': 'float', 'Sensor-488': 'float', 'Sensor-489': 'float', 'Sensor-490': 'float', 'Sensor-491': 'float', 'Sensor-492': 'float', 'Sensor-493': 'float', 'Sensor-494': 'float', 'Sensor-495': 'float', 'Sensor-496': 'float', 'Sensor-497': 'float', 'Sensor-498': 'float', 'Sensor-499': 'float', 'Sensor-500': 'float', 'Sensor-501': 'float', 'Sensor-502': 'float', 'Sensor-503': 'float', 'Sensor-504': 'float', 'Sensor-505': 'float', 'Sensor-506': 'float', 'Sensor-507': 'float', 'Sensor-508': 'float', 'Sensor-509': 'float', 'Sensor-510': 'float', 'Sensor-511': 'float', 'Sensor-512': 'float', 'Sensor-513': 'float', 'Sensor-514': 'float', 'Sensor-515': 'float', 'Sensor-516': 'float', 'Sensor-517': 'float', 'Sensor-518': 'float', 'Sensor-519': 'float', 'Sensor-520': 'float', 'Sensor-521': 'float', 'Sensor-522': 'float', 'Sensor-523': 'float', 'Sensor-524': 'float', 'Sensor-525': 'float', 'Sensor-526': 'float', 'Sensor-527': 'float', 'Sensor-528': 'float', 'Sensor-529': 'float', 'Sensor-530': 'float', 'Sensor-531': 'float', 'Sensor-532': 'float', 'Sensor-533': 'float', 'Sensor-534': 'float', 'Sensor-535': 'float', 'Sensor-536': 'float', 'Sensor-537': 'float', 'Sensor-538': 'float', 'Sensor-539': 'float', 'Sensor-540': 'float', 'Sensor-541': 'float', 'Sensor-542': 'float', 'Sensor-543': 'float', 'Sensor-544': 'float', 'Sensor-545': 'float', 'Sensor-546': 'float', 'Sensor-547': 'float', 'Sensor-548': 'float', 'Sensor-549': 'float', 'Sensor-550': 'float', 'Sensor-551': 'float', 'Sensor-552': 'float', 'Sensor-553': 'float', 'Sensor-554': 'float', 'Sensor-555': 'float', 'Sensor-556': 'float', 'Sensor-557': 'float', 'Sensor-558': 'float', 'Sensor-559': 'float', 'Sensor-560': 'float', 'Sensor-561': 'float', 'Sensor-562': 'float', 'Sensor-563': 'float', 'Sensor-564': 'float', 'Sensor-565': 'float', 'Sensor-566': 'float', 'Sensor-567': 'float', 'Sensor-568': 'float', 'Sensor-569': 'float', 'Sensor-570': 'float', 'Sensor-571': 'float', 'Sensor-572': 'float', 'Sensor-573': 'float', 'Sensor-574': 'float', 'Sensor-575': 'float', 'Sensor-576': 'float', 'Sensor-577': 'float', 'Sensor-578': 'float', 'Sensor-579': 'float', 'Sensor-580': 'float', 'Sensor-581': 'float', 'Sensor-582': 'float', 'Sensor-583': 'float', 'Sensor-584': 'float', 'Sensor-585': 'float', 'Sensor-586': 'float', 'Sensor-587': 'float', 'Sensor-588': 'float', 'Sensor-589': 'float', 'Sensor-590': 'float', 'Output': 'Integer'}
+2021-07-17 :: 23:11:32.550231 :::: Schema Validated Successfully
+2021-07-17 :: 23:11:32.578188 :::: Validating the file names
+2021-07-17 :: 23:11:32.606185 :::: Invalid file!! Wafer12_20012.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.620181 :::: Invalid file!! Waferdefault_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.636201 :::: Invalid file!! Wafer_07012020_000000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.650222 :::: wafer_07012020_041011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.692221 :::: Invalid file!! Wafer_07012020_223345.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.706222 :::: Invalid file!! Wafer_08012020_120000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.750259 :::: Invalid file!! Wafer_10012020_131534.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.778271 :::: Invalid file!! Wafer_11012020_151432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.792261 :::: Invalid file!! Wafer_12012020_111.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.806255 :::: Invalid file!! Wafer_12012020_111213.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.806255 :::: wafer_13012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.820257 :::: Invalid file!! Wafer_13012020_141000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.836270 :::: Invalid file!! Wafer_14012020_113045.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.850295 :::: Invalid file!! Wafer_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.864289 :::: Invalid file!! Wafer_15012020_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.864289 :::: wafer_16012020_051629.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.878285 :::: wafer_16012020_134553.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.920285 :::: wafer_17012020_125434.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.936302 :::: Invalid file!! Wafer_18012020_121532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.950317 :::: Invalid file!! Wafer_19012020_141432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.964315 :::: wafer_20012020_090819.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.978314 :::: Invalid file!! Wafer_20012020_135132.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:32.978314 :::: wafer_20022020_090716.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:32.992315 :::: wafer_21012020_080913.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.006315 :::: Invalid file!! Wafer_21012020_143634.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.020315 :::: Invalid file!! Wafer_22012020_173245.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.036322 :::: wafer_22022020_041119.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.050335 :::: wafer_23012020_011008.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.092338 :::: wafer_23012020_041211.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.106339 :::: Invalid file!! Wafer_23012020_163456.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.120337 :::: Invalid file!! Wafer_24012020_150121.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.134337 :::: Invalid file!! Wafer_25012020_142112.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.136352 :::: wafer_27012020_080911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.164368 :::: wafer_28012020_051011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.178367 :::: wafer_28012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.236385 :::: wafer_28042020_031911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.264398 :::: wafer_29012020_050617.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.278401 :::: wafer_29012020_060756.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.320396 :::: wafer_31012020_090811.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:11:33.404179 :::: Invalid file!! Wafer_fault_detection.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.444176 :::: Invalid file!! Wafer_text_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:33.444176 :::: Total file:41::Valid :18::Invalid :23
+2021-07-17 :: 23:11:33.444176 :::: File name validation successfully completed !!
+2021-07-17 :: 23:11:33.542762 :::: Validating the number of columns and there names!!
+2021-07-17 :: 23:11:36.678740 :::: Invalid number of columns!! wafer_16012020_134553.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:36.979278 :::: Invalid number of columns!! wafer_17012020_125434.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:41.337186 :::: Total files:18::Valid :16::Invalid :2
+2021-07-17 :: 23:11:41.337186 :::: No. of columns validated successfully !!
+2021-07-17 :: 23:11:41.345184 :::: Validating missing values in columns !!
+2021-07-17 :: 23:11:41.449182 :::: Has missing column!! wafer_07012020_041011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:42.001181 :::: Has missing column!! wafer_20012020_090819.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:42.409180 :::: Has missing column!! wafer_22022020_041119.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:42.508727 :::: Has missing column!! wafer_23012020_011008.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:42.892733 :::: Has missing column!! wafer_28012020_051011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:43.348735 :::: Has missing column!! wafer_29012020_060756.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:43.428727 :::: Has missing column!! wafer_31012020_090811.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:11:43.428727 :::: Total files:16::Valid :9::Invalid :7
+2021-07-17 :: 23:11:43.428727 :::: Missing values updated successfully !!
+2021-07-17 :: 23:11:43.436738 :::: Data Transformation by updating the null values!!
+2021-07-17 :: 23:11:56.367584 :::: Data Transformation completed successfully!!
+2021-07-17 :: 23:45:34.817467 :::: Validating Expected Schema
+2021-07-17 :: 23:45:34.817467 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6||No of Columns::592||Column names::{'Wafer': 'varchar', 'Sensor-1': 'float', 'Sensor-2': 'float', 'Sensor-3': 'float', 'Sensor-4': 'float', 'Sensor-5': 'float', 'Sensor-6': 'float', 'Sensor-7': 'float', 'Sensor-8': 'float', 'Sensor-9': 'float', 'Sensor-10': 'float', 'Sensor-11': 'float', 'Sensor-12': 'float', 'Sensor-13': 'float', 'Sensor-14': 'float', 'Sensor-15': 'float', 'Sensor-16': 'float', 'Sensor-17': 'float', 'Sensor-18': 'float', 'Sensor-19': 'float', 'Sensor-20': 'float', 'Sensor-21': 'float', 'Sensor-22': 'float', 'Sensor-23': 'float', 'Sensor-24': 'float', 'Sensor-25': 'float', 'Sensor-26': 'float', 'Sensor-27': 'float', 'Sensor-28': 'float', 'Sensor-29': 'float', 'Sensor-30': 'float', 'Sensor-31': 'float', 'Sensor-32': 'float', 'Sensor-33': 'float', 'Sensor-34': 'float', 'Sensor-35': 'float', 'Sensor-36': 'float', 'Sensor-37': 'float', 'Sensor-38': 'float', 'Sensor-39': 'float', 'Sensor-40': 'float', 'Sensor-41': 'float', 'Sensor-42': 'float', 'Sensor-43': 'float', 'Sensor-44': 'float', 'Sensor-45': 'float', 'Sensor-46': 'float', 'Sensor-47': 'float', 'Sensor-48': 'float', 'Sensor-49': 'float', 'Sensor-50': 'float', 'Sensor-51': 'float', 'Sensor-52': 'float', 'Sensor-53': 'float', 'Sensor-54': 'float', 'Sensor-55': 'float', 'Sensor-56': 'float', 'Sensor-57': 'float', 'Sensor-58': 'float', 'Sensor-59': 'float', 'Sensor-60': 'float', 'Sensor-61': 'float', 'Sensor-62': 'float', 'Sensor-63': 'float', 'Sensor-64': 'float', 'Sensor-65': 'float', 'Sensor-66': 'float', 'Sensor-67': 'float', 'Sensor-68': 'float', 'Sensor-69': 'float', 'Sensor-70': 'float', 'Sensor-71': 'float', 'Sensor-72': 'float', 'Sensor-73': 'float', 'Sensor-74': 'float', 'Sensor-75': 'float', 'Sensor-76': 'float', 'Sensor-77': 'float', 'Sensor-78': 'float', 'Sensor-79': 'float', 'Sensor-80': 'float', 'Sensor-81': 'float', 'Sensor-82': 'float', 'Sensor-83': 'float', 'Sensor-84': 'float', 'Sensor-85': 'float', 'Sensor-86': 'float', 'Sensor-87': 'float', 'Sensor-88': 'float', 'Sensor-89': 'float', 'Sensor-90': 'float', 'Sensor-91': 'float', 'Sensor-92': 'float', 'Sensor-93': 'float', 'Sensor-94': 'float', 'Sensor-95': 'float', 'Sensor-96': 'float', 'Sensor-97': 'float', 'Sensor-98': 'float', 'Sensor-99': 'float', 'Sensor-100': 'float', 'Sensor-101': 'float', 'Sensor-102': 'float', 'Sensor-103': 'float', 'Sensor-104': 'float', 'Sensor-105': 'float', 'Sensor-106': 'float', 'Sensor-107': 'float', 'Sensor-108': 'float', 'Sensor-109': 'float', 'Sensor-110': 'float', 'Sensor-111': 'float', 'Sensor-112': 'float', 'Sensor-113': 'float', 'Sensor-114': 'float', 'Sensor-115': 'float', 'Sensor-116': 'float', 'Sensor-117': 'float', 'Sensor-118': 'float', 'Sensor-119': 'float', 'Sensor-120': 'float', 'Sensor-121': 'float', 'Sensor-122': 'float', 'Sensor-123': 'float', 'Sensor-124': 'float', 'Sensor-125': 'float', 'Sensor-126': 'float', 'Sensor-127': 'float', 'Sensor-128': 'float', 'Sensor-129': 'float', 'Sensor-130': 'float', 'Sensor-131': 'float', 'Sensor-132': 'float', 'Sensor-133': 'float', 'Sensor-134': 'float', 'Sensor-135': 'float', 'Sensor-136': 'float', 'Sensor-137': 'float', 'Sensor-138': 'float', 'Sensor-139': 'float', 'Sensor-140': 'float', 'Sensor-141': 'float', 'Sensor-142': 'float', 'Sensor-143': 'float', 'Sensor-144': 'float', 'Sensor-145': 'float', 'Sensor-146': 'float', 'Sensor-147': 'float', 'Sensor-148': 'float', 'Sensor-149': 'float', 'Sensor-150': 'float', 'Sensor-151': 'float', 'Sensor-152': 'float', 'Sensor-153': 'float', 'Sensor-154': 'float', 'Sensor-155': 'float', 'Sensor-156': 'float', 'Sensor-157': 'float', 'Sensor-158': 'float', 'Sensor-159': 'float', 'Sensor-160': 'float', 'Sensor-161': 'float', 'Sensor-162': 'float', 'Sensor-163': 'float', 'Sensor-164': 'float', 'Sensor-165': 'float', 'Sensor-166': 'float', 'Sensor-167': 'float', 'Sensor-168': 'float', 'Sensor-169': 'float', 'Sensor-170': 'float', 'Sensor-171': 'float', 'Sensor-172': 'float', 'Sensor-173': 'float', 'Sensor-174': 'float', 'Sensor-175': 'float', 'Sensor-176': 'float', 'Sensor-177': 'float', 'Sensor-178': 'float', 'Sensor-179': 'float', 'Sensor-180': 'float', 'Sensor-181': 'float', 'Sensor-182': 'float', 'Sensor-183': 'float', 'Sensor-184': 'float', 'Sensor-185': 'float', 'Sensor-186': 'float', 'Sensor-187': 'float', 'Sensor-188': 'float', 'Sensor-189': 'float', 'Sensor-190': 'float', 'Sensor-191': 'float', 'Sensor-192': 'float', 'Sensor-193': 'float', 'Sensor-194': 'float', 'Sensor-195': 'float', 'Sensor-196': 'float', 'Sensor-197': 'float', 'Sensor-198': 'float', 'Sensor-199': 'float', 'Sensor-200': 'float', 'Sensor-201': 'float', 'Sensor-202': 'float', 'Sensor-203': 'float', 'Sensor-204': 'float', 'Sensor-205': 'float', 'Sensor-206': 'float', 'Sensor-207': 'float', 'Sensor-208': 'float', 'Sensor-209': 'float', 'Sensor-210': 'float', 'Sensor-211': 'float', 'Sensor-212': 'float', 'Sensor-213': 'float', 'Sensor-214': 'float', 'Sensor-215': 'float', 'Sensor-216': 'float', 'Sensor-217': 'float', 'Sensor-218': 'float', 'Sensor-219': 'float', 'Sensor-220': 'float', 'Sensor-221': 'float', 'Sensor-222': 'float', 'Sensor-223': 'float', 'Sensor-224': 'float', 'Sensor-225': 'float', 'Sensor-226': 'float', 'Sensor-227': 'float', 'Sensor-228': 'float', 'Sensor-229': 'float', 'Sensor-230': 'float', 'Sensor-231': 'float', 'Sensor-232': 'float', 'Sensor-233': 'float', 'Sensor-234': 'float', 'Sensor-235': 'float', 'Sensor-236': 'float', 'Sensor-237': 'float', 'Sensor-238': 'float', 'Sensor-239': 'float', 'Sensor-240': 'float', 'Sensor-241': 'float', 'Sensor-242': 'float', 'Sensor-243': 'float', 'Sensor-244': 'float', 'Sensor-245': 'float', 'Sensor-246': 'float', 'Sensor-247': 'float', 'Sensor-248': 'float', 'Sensor-249': 'float', 'Sensor-250': 'float', 'Sensor-251': 'float', 'Sensor-252': 'float', 'Sensor-253': 'float', 'Sensor-254': 'float', 'Sensor-255': 'float', 'Sensor-256': 'float', 'Sensor-257': 'float', 'Sensor-258': 'float', 'Sensor-259': 'float', 'Sensor-260': 'float', 'Sensor-261': 'float', 'Sensor-262': 'float', 'Sensor-263': 'float', 'Sensor-264': 'float', 'Sensor-265': 'float', 'Sensor-266': 'float', 'Sensor-267': 'float', 'Sensor-268': 'float', 'Sensor-269': 'float', 'Sensor-270': 'float', 'Sensor-271': 'float', 'Sensor-272': 'float', 'Sensor-273': 'float', 'Sensor-274': 'float', 'Sensor-275': 'float', 'Sensor-276': 'float', 'Sensor-277': 'float', 'Sensor-278': 'float', 'Sensor-279': 'float', 'Sensor-280': 'float', 'Sensor-281': 'float', 'Sensor-282': 'float', 'Sensor-283': 'float', 'Sensor-284': 'float', 'Sensor-285': 'float', 'Sensor-286': 'float', 'Sensor-287': 'float', 'Sensor-288': 'float', 'Sensor-289': 'float', 'Sensor-290': 'float', 'Sensor-291': 'float', 'Sensor-292': 'float', 'Sensor-293': 'float', 'Sensor-294': 'float', 'Sensor-295': 'float', 'Sensor-296': 'float', 'Sensor-297': 'float', 'Sensor-298': 'float', 'Sensor-299': 'float', 'Sensor-300': 'float', 'Sensor-301': 'float', 'Sensor-302': 'float', 'Sensor-303': 'float', 'Sensor-304': 'float', 'Sensor-305': 'float', 'Sensor-306': 'float', 'Sensor-307': 'float', 'Sensor-308': 'float', 'Sensor-309': 'float', 'Sensor-310': 'float', 'Sensor-311': 'float', 'Sensor-312': 'float', 'Sensor-313': 'float', 'Sensor-314': 'float', 'Sensor-315': 'float', 'Sensor-316': 'float', 'Sensor-317': 'float', 'Sensor-318': 'float', 'Sensor-319': 'float', 'Sensor-320': 'float', 'Sensor-321': 'float', 'Sensor-322': 'float', 'Sensor-323': 'float', 'Sensor-324': 'float', 'Sensor-325': 'float', 'Sensor-326': 'float', 'Sensor-327': 'float', 'Sensor-328': 'float', 'Sensor-329': 'float', 'Sensor-330': 'float', 'Sensor-331': 'float', 'Sensor-332': 'float', 'Sensor-333': 'float', 'Sensor-334': 'float', 'Sensor-335': 'float', 'Sensor-336': 'float', 'Sensor-337': 'float', 'Sensor-338': 'float', 'Sensor-339': 'float', 'Sensor-340': 'float', 'Sensor-341': 'float', 'Sensor-342': 'float', 'Sensor-343': 'float', 'Sensor-344': 'float', 'Sensor-345': 'float', 'Sensor-346': 'float', 'Sensor-347': 'float', 'Sensor-348': 'float', 'Sensor-349': 'float', 'Sensor-350': 'float', 'Sensor-351': 'float', 'Sensor-352': 'float', 'Sensor-353': 'float', 'Sensor-354': 'float', 'Sensor-355': 'float', 'Sensor-356': 'float', 'Sensor-357': 'float', 'Sensor-358': 'float', 'Sensor-359': 'float', 'Sensor-360': 'float', 'Sensor-361': 'float', 'Sensor-362': 'float', 'Sensor-363': 'float', 'Sensor-364': 'float', 'Sensor-365': 'float', 'Sensor-366': 'float', 'Sensor-367': 'float', 'Sensor-368': 'float', 'Sensor-369': 'float', 'Sensor-370': 'float', 'Sensor-371': 'float', 'Sensor-372': 'float', 'Sensor-373': 'float', 'Sensor-374': 'float', 'Sensor-375': 'float', 'Sensor-376': 'float', 'Sensor-377': 'float', 'Sensor-378': 'float', 'Sensor-379': 'float', 'Sensor-380': 'float', 'Sensor-381': 'float', 'Sensor-382': 'float', 'Sensor-383': 'float', 'Sensor-384': 'float', 'Sensor-385': 'float', 'Sensor-386': 'float', 'Sensor-387': 'float', 'Sensor-388': 'float', 'Sensor-389': 'float', 'Sensor-390': 'float', 'Sensor-391': 'float', 'Sensor-392': 'float', 'Sensor-393': 'float', 'Sensor-394': 'float', 'Sensor-395': 'float', 'Sensor-396': 'float', 'Sensor-397': 'float', 'Sensor-398': 'float', 'Sensor-399': 'float', 'Sensor-400': 'float', 'Sensor-401': 'float', 'Sensor-402': 'float', 'Sensor-403': 'float', 'Sensor-404': 'float', 'Sensor-405': 'float', 'Sensor-406': 'float', 'Sensor-407': 'float', 'Sensor-408': 'float', 'Sensor-409': 'float', 'Sensor-410': 'float', 'Sensor-411': 'float', 'Sensor-412': 'float', 'Sensor-413': 'float', 'Sensor-414': 'float', 'Sensor-415': 'float', 'Sensor-416': 'float', 'Sensor-417': 'float', 'Sensor-418': 'float', 'Sensor-419': 'float', 'Sensor-420': 'float', 'Sensor-421': 'float', 'Sensor-422': 'float', 'Sensor-423': 'float', 'Sensor-424': 'float', 'Sensor-425': 'float', 'Sensor-426': 'float', 'Sensor-427': 'float', 'Sensor-428': 'float', 'Sensor-429': 'float', 'Sensor-430': 'float', 'Sensor-431': 'float', 'Sensor-432': 'float', 'Sensor-433': 'float', 'Sensor-434': 'float', 'Sensor-435': 'float', 'Sensor-436': 'float', 'Sensor-437': 'float', 'Sensor-438': 'float', 'Sensor-439': 'float', 'Sensor-440': 'float', 'Sensor-441': 'float', 'Sensor-442': 'float', 'Sensor-443': 'float', 'Sensor-444': 'float', 'Sensor-445': 'float', 'Sensor-446': 'float', 'Sensor-447': 'float', 'Sensor-448': 'float', 'Sensor-449': 'float', 'Sensor-450': 'float', 'Sensor-451': 'float', 'Sensor-452': 'float', 'Sensor-453': 'float', 'Sensor-454': 'float', 'Sensor-455': 'float', 'Sensor-456': 'float', 'Sensor-457': 'float', 'Sensor-458': 'float', 'Sensor-459': 'float', 'Sensor-460': 'float', 'Sensor-461': 'float', 'Sensor-462': 'float', 'Sensor-463': 'float', 'Sensor-464': 'float', 'Sensor-465': 'float', 'Sensor-466': 'float', 'Sensor-467': 'float', 'Sensor-468': 'float', 'Sensor-469': 'float', 'Sensor-470': 'float', 'Sensor-471': 'float', 'Sensor-472': 'float', 'Sensor-473': 'float', 'Sensor-474': 'float', 'Sensor-475': 'float', 'Sensor-476': 'float', 'Sensor-477': 'float', 'Sensor-478': 'float', 'Sensor-479': 'float', 'Sensor-480': 'float', 'Sensor-481': 'float', 'Sensor-482': 'float', 'Sensor-483': 'float', 'Sensor-484': 'float', 'Sensor-485': 'float', 'Sensor-486': 'float', 'Sensor-487': 'float', 'Sensor-488': 'float', 'Sensor-489': 'float', 'Sensor-490': 'float', 'Sensor-491': 'float', 'Sensor-492': 'float', 'Sensor-493': 'float', 'Sensor-494': 'float', 'Sensor-495': 'float', 'Sensor-496': 'float', 'Sensor-497': 'float', 'Sensor-498': 'float', 'Sensor-499': 'float', 'Sensor-500': 'float', 'Sensor-501': 'float', 'Sensor-502': 'float', 'Sensor-503': 'float', 'Sensor-504': 'float', 'Sensor-505': 'float', 'Sensor-506': 'float', 'Sensor-507': 'float', 'Sensor-508': 'float', 'Sensor-509': 'float', 'Sensor-510': 'float', 'Sensor-511': 'float', 'Sensor-512': 'float', 'Sensor-513': 'float', 'Sensor-514': 'float', 'Sensor-515': 'float', 'Sensor-516': 'float', 'Sensor-517': 'float', 'Sensor-518': 'float', 'Sensor-519': 'float', 'Sensor-520': 'float', 'Sensor-521': 'float', 'Sensor-522': 'float', 'Sensor-523': 'float', 'Sensor-524': 'float', 'Sensor-525': 'float', 'Sensor-526': 'float', 'Sensor-527': 'float', 'Sensor-528': 'float', 'Sensor-529': 'float', 'Sensor-530': 'float', 'Sensor-531': 'float', 'Sensor-532': 'float', 'Sensor-533': 'float', 'Sensor-534': 'float', 'Sensor-535': 'float', 'Sensor-536': 'float', 'Sensor-537': 'float', 'Sensor-538': 'float', 'Sensor-539': 'float', 'Sensor-540': 'float', 'Sensor-541': 'float', 'Sensor-542': 'float', 'Sensor-543': 'float', 'Sensor-544': 'float', 'Sensor-545': 'float', 'Sensor-546': 'float', 'Sensor-547': 'float', 'Sensor-548': 'float', 'Sensor-549': 'float', 'Sensor-550': 'float', 'Sensor-551': 'float', 'Sensor-552': 'float', 'Sensor-553': 'float', 'Sensor-554': 'float', 'Sensor-555': 'float', 'Sensor-556': 'float', 'Sensor-557': 'float', 'Sensor-558': 'float', 'Sensor-559': 'float', 'Sensor-560': 'float', 'Sensor-561': 'float', 'Sensor-562': 'float', 'Sensor-563': 'float', 'Sensor-564': 'float', 'Sensor-565': 'float', 'Sensor-566': 'float', 'Sensor-567': 'float', 'Sensor-568': 'float', 'Sensor-569': 'float', 'Sensor-570': 'float', 'Sensor-571': 'float', 'Sensor-572': 'float', 'Sensor-573': 'float', 'Sensor-574': 'float', 'Sensor-575': 'float', 'Sensor-576': 'float', 'Sensor-577': 'float', 'Sensor-578': 'float', 'Sensor-579': 'float', 'Sensor-580': 'float', 'Sensor-581': 'float', 'Sensor-582': 'float', 'Sensor-583': 'float', 'Sensor-584': 'float', 'Sensor-585': 'float', 'Sensor-586': 'float', 'Sensor-587': 'float', 'Sensor-588': 'float', 'Sensor-589': 'float', 'Sensor-590': 'float', 'Output': 'Integer'}
+2021-07-17 :: 23:45:34.833124 :::: Schema Validated Successfully
+2021-07-17 :: 23:45:34.848736 :::: Validating the file names
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Wafer12_20012.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Waferdefault_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Wafer_07012020_000000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.848736 :::: wafer_07012020_041011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Wafer_07012020_223345.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Wafer_08012020_120000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.848736 :::: Invalid file!! Wafer_10012020_131534.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_11012020_151432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_12012020_111.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_12012020_111213.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: wafer_13012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_13012020_141000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_14012020_113045.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: Invalid file!! Wafer_15012020_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.864356 :::: wafer_16012020_051629.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: wafer_16012020_134553.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: wafer_17012020_125434.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: Invalid file!! Wafer_18012020_121532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.879982 :::: Invalid file!! Wafer_19012020_141432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.879982 :::: wafer_20012020_090819.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: Invalid file!! Wafer_20012020_135132.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.879982 :::: wafer_20022020_090716.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: wafer_21012020_080913.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.879982 :::: Invalid file!! Wafer_21012020_143634.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.879982 :::: Invalid file!! Wafer_22012020_173245.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.895607 :::: wafer_22022020_041119.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.895607 :::: wafer_23012020_011008.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.895607 :::: wafer_23012020_041211.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.895607 :::: Invalid file!! Wafer_23012020_163456.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.895607 :::: Invalid file!! Wafer_24012020_150121.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.895607 :::: Invalid file!! Wafer_25012020_142112.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.895607 :::: wafer_27012020_080911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.895607 :::: wafer_28012020_051011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.895607 :::: wafer_28012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.911238 :::: wafer_28042020_031911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.911238 :::: wafer_29012020_050617.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.911238 :::: wafer_29012020_060756.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.911238 :::: wafer_31012020_090811.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:45:34.917751 :::: Invalid file!! Wafer_fault_detection.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.917751 :::: Invalid file!! Wafer_text_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:34.917751 :::: Total file:41::Valid :18::Invalid :23
+2021-07-17 :: 23:45:34.917751 :::: File name validation successfully completed !!
+2021-07-17 :: 23:45:34.917751 :::: Validating the number of columns and there names!!
+2021-07-17 :: 23:45:35.791501 :::: Invalid number of columns!! wafer_16012020_134553.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:36.082454 :::: Invalid number of columns!! wafer_17012020_125434.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:39.219524 :::: Total files:18::Valid :16::Invalid :2
+2021-07-17 :: 23:45:39.219524 :::: No. of columns validated successfully !!
+2021-07-17 :: 23:45:39.235315 :::: Validating missing values in columns !!
+2021-07-17 :: 23:45:39.335512 :::: Has missing column!! wafer_07012020_041011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:39.689037 :::: Has missing column!! wafer_20012020_090819.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:40.042054 :::: Has missing column!! wafer_22022020_041119.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:40.142336 :::: Has missing column!! wafer_23012020_011008.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:40.590372 :::: Has missing column!! wafer_28012020_051011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:41.007149 :::: Has missing column!! wafer_29012020_060756.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:41.076198 :::: Has missing column!! wafer_31012020_090811.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:45:41.076198 :::: Total files:16::Valid :9::Invalid :7
+2021-07-17 :: 23:45:41.076198 :::: Missing values updated successfully !!
+2021-07-17 :: 23:45:41.076198 :::: Data Transformation by updating the null values!!
+2021-07-17 :: 23:45:59.140911 :::: Data Transformation completed successfully!!
+2021-07-17 :: 23:45:59.148909 :::: Creating table TRAIN_DATA in Database TRAIN !!
+2021-07-17 :: 23:45:59.148909 :::: Connecting to DB
+2021-07-17 :: 23:46:59.745315 :::: Table creation Successful !!
+2021-07-17 :: 23:46:59.776501 :::: Inserting data into TRAIN_DATA in Database TRAIN !!
+2021-07-17 :: 23:46:59.776501 :::: Connecting to DB
+2021-07-17 :: 23:47:00.849594 :::: wafer_13012020_090817.csv inserted successfully!!
+2021-07-17 :: 23:47:01.736755 :::: wafer_16012020_051629.csv inserted successfully!!
+2021-07-17 :: 23:47:02.184872 :::: wafer_20022020_090716.csv inserted successfully!!
+2021-07-17 :: 23:47:02.670429 :::: wafer_21012020_080913.csv inserted successfully!!
+2021-07-17 :: 23:47:02.965079 :::: wafer_23012020_041211.csv inserted successfully!!
+2021-07-17 :: 23:47:03.372394 :::: wafer_27012020_080911.csv inserted successfully!!
+2021-07-17 :: 23:47:03.856171 :::: wafer_28012020_090817.csv inserted successfully!!
+2021-07-17 :: 23:47:04.328886 :::: wafer_28042020_031911.csv inserted successfully!!
+2021-07-17 :: 23:47:04.763022 :::: wafer_29012020_050617.csv inserted successfully!!
+2021-07-17 :: 23:47:04.763022 :::: Inserted data Successfully !!
+2021-07-17 :: 23:47:04.787027 :::: Pulling the data from database!!
+2021-07-17 :: 23:47:04.787027 :::: Connecting to DB
+2021-07-17 :: 23:47:05.379009 :::: Transferred the data to csv file Final_csv/train_Input.csv !!
+2021-07-17 :: 23:47:05.395004 :::: Training Started !!
+2021-07-17 :: 23:47:05.395004 :::: Reading the complete data...
+2021-07-17 :: 23:47:05.547019 :::: Removing Wafer Column
+2021-07-17 :: 23:58:46.807511 :::: Validating Expected Schema
+2021-07-17 :: 23:58:46.807511 :::: File name pattern::wafer_08012020_120000.csv||Date length::8||Time length::6||No of Columns::592||Column names::{'Wafer': 'varchar', 'Sensor-1': 'float', 'Sensor-2': 'float', 'Sensor-3': 'float', 'Sensor-4': 'float', 'Sensor-5': 'float', 'Sensor-6': 'float', 'Sensor-7': 'float', 'Sensor-8': 'float', 'Sensor-9': 'float', 'Sensor-10': 'float', 'Sensor-11': 'float', 'Sensor-12': 'float', 'Sensor-13': 'float', 'Sensor-14': 'float', 'Sensor-15': 'float', 'Sensor-16': 'float', 'Sensor-17': 'float', 'Sensor-18': 'float', 'Sensor-19': 'float', 'Sensor-20': 'float', 'Sensor-21': 'float', 'Sensor-22': 'float', 'Sensor-23': 'float', 'Sensor-24': 'float', 'Sensor-25': 'float', 'Sensor-26': 'float', 'Sensor-27': 'float', 'Sensor-28': 'float', 'Sensor-29': 'float', 'Sensor-30': 'float', 'Sensor-31': 'float', 'Sensor-32': 'float', 'Sensor-33': 'float', 'Sensor-34': 'float', 'Sensor-35': 'float', 'Sensor-36': 'float', 'Sensor-37': 'float', 'Sensor-38': 'float', 'Sensor-39': 'float', 'Sensor-40': 'float', 'Sensor-41': 'float', 'Sensor-42': 'float', 'Sensor-43': 'float', 'Sensor-44': 'float', 'Sensor-45': 'float', 'Sensor-46': 'float', 'Sensor-47': 'float', 'Sensor-48': 'float', 'Sensor-49': 'float', 'Sensor-50': 'float', 'Sensor-51': 'float', 'Sensor-52': 'float', 'Sensor-53': 'float', 'Sensor-54': 'float', 'Sensor-55': 'float', 'Sensor-56': 'float', 'Sensor-57': 'float', 'Sensor-58': 'float', 'Sensor-59': 'float', 'Sensor-60': 'float', 'Sensor-61': 'float', 'Sensor-62': 'float', 'Sensor-63': 'float', 'Sensor-64': 'float', 'Sensor-65': 'float', 'Sensor-66': 'float', 'Sensor-67': 'float', 'Sensor-68': 'float', 'Sensor-69': 'float', 'Sensor-70': 'float', 'Sensor-71': 'float', 'Sensor-72': 'float', 'Sensor-73': 'float', 'Sensor-74': 'float', 'Sensor-75': 'float', 'Sensor-76': 'float', 'Sensor-77': 'float', 'Sensor-78': 'float', 'Sensor-79': 'float', 'Sensor-80': 'float', 'Sensor-81': 'float', 'Sensor-82': 'float', 'Sensor-83': 'float', 'Sensor-84': 'float', 'Sensor-85': 'float', 'Sensor-86': 'float', 'Sensor-87': 'float', 'Sensor-88': 'float', 'Sensor-89': 'float', 'Sensor-90': 'float', 'Sensor-91': 'float', 'Sensor-92': 'float', 'Sensor-93': 'float', 'Sensor-94': 'float', 'Sensor-95': 'float', 'Sensor-96': 'float', 'Sensor-97': 'float', 'Sensor-98': 'float', 'Sensor-99': 'float', 'Sensor-100': 'float', 'Sensor-101': 'float', 'Sensor-102': 'float', 'Sensor-103': 'float', 'Sensor-104': 'float', 'Sensor-105': 'float', 'Sensor-106': 'float', 'Sensor-107': 'float', 'Sensor-108': 'float', 'Sensor-109': 'float', 'Sensor-110': 'float', 'Sensor-111': 'float', 'Sensor-112': 'float', 'Sensor-113': 'float', 'Sensor-114': 'float', 'Sensor-115': 'float', 'Sensor-116': 'float', 'Sensor-117': 'float', 'Sensor-118': 'float', 'Sensor-119': 'float', 'Sensor-120': 'float', 'Sensor-121': 'float', 'Sensor-122': 'float', 'Sensor-123': 'float', 'Sensor-124': 'float', 'Sensor-125': 'float', 'Sensor-126': 'float', 'Sensor-127': 'float', 'Sensor-128': 'float', 'Sensor-129': 'float', 'Sensor-130': 'float', 'Sensor-131': 'float', 'Sensor-132': 'float', 'Sensor-133': 'float', 'Sensor-134': 'float', 'Sensor-135': 'float', 'Sensor-136': 'float', 'Sensor-137': 'float', 'Sensor-138': 'float', 'Sensor-139': 'float', 'Sensor-140': 'float', 'Sensor-141': 'float', 'Sensor-142': 'float', 'Sensor-143': 'float', 'Sensor-144': 'float', 'Sensor-145': 'float', 'Sensor-146': 'float', 'Sensor-147': 'float', 'Sensor-148': 'float', 'Sensor-149': 'float', 'Sensor-150': 'float', 'Sensor-151': 'float', 'Sensor-152': 'float', 'Sensor-153': 'float', 'Sensor-154': 'float', 'Sensor-155': 'float', 'Sensor-156': 'float', 'Sensor-157': 'float', 'Sensor-158': 'float', 'Sensor-159': 'float', 'Sensor-160': 'float', 'Sensor-161': 'float', 'Sensor-162': 'float', 'Sensor-163': 'float', 'Sensor-164': 'float', 'Sensor-165': 'float', 'Sensor-166': 'float', 'Sensor-167': 'float', 'Sensor-168': 'float', 'Sensor-169': 'float', 'Sensor-170': 'float', 'Sensor-171': 'float', 'Sensor-172': 'float', 'Sensor-173': 'float', 'Sensor-174': 'float', 'Sensor-175': 'float', 'Sensor-176': 'float', 'Sensor-177': 'float', 'Sensor-178': 'float', 'Sensor-179': 'float', 'Sensor-180': 'float', 'Sensor-181': 'float', 'Sensor-182': 'float', 'Sensor-183': 'float', 'Sensor-184': 'float', 'Sensor-185': 'float', 'Sensor-186': 'float', 'Sensor-187': 'float', 'Sensor-188': 'float', 'Sensor-189': 'float', 'Sensor-190': 'float', 'Sensor-191': 'float', 'Sensor-192': 'float', 'Sensor-193': 'float', 'Sensor-194': 'float', 'Sensor-195': 'float', 'Sensor-196': 'float', 'Sensor-197': 'float', 'Sensor-198': 'float', 'Sensor-199': 'float', 'Sensor-200': 'float', 'Sensor-201': 'float', 'Sensor-202': 'float', 'Sensor-203': 'float', 'Sensor-204': 'float', 'Sensor-205': 'float', 'Sensor-206': 'float', 'Sensor-207': 'float', 'Sensor-208': 'float', 'Sensor-209': 'float', 'Sensor-210': 'float', 'Sensor-211': 'float', 'Sensor-212': 'float', 'Sensor-213': 'float', 'Sensor-214': 'float', 'Sensor-215': 'float', 'Sensor-216': 'float', 'Sensor-217': 'float', 'Sensor-218': 'float', 'Sensor-219': 'float', 'Sensor-220': 'float', 'Sensor-221': 'float', 'Sensor-222': 'float', 'Sensor-223': 'float', 'Sensor-224': 'float', 'Sensor-225': 'float', 'Sensor-226': 'float', 'Sensor-227': 'float', 'Sensor-228': 'float', 'Sensor-229': 'float', 'Sensor-230': 'float', 'Sensor-231': 'float', 'Sensor-232': 'float', 'Sensor-233': 'float', 'Sensor-234': 'float', 'Sensor-235': 'float', 'Sensor-236': 'float', 'Sensor-237': 'float', 'Sensor-238': 'float', 'Sensor-239': 'float', 'Sensor-240': 'float', 'Sensor-241': 'float', 'Sensor-242': 'float', 'Sensor-243': 'float', 'Sensor-244': 'float', 'Sensor-245': 'float', 'Sensor-246': 'float', 'Sensor-247': 'float', 'Sensor-248': 'float', 'Sensor-249': 'float', 'Sensor-250': 'float', 'Sensor-251': 'float', 'Sensor-252': 'float', 'Sensor-253': 'float', 'Sensor-254': 'float', 'Sensor-255': 'float', 'Sensor-256': 'float', 'Sensor-257': 'float', 'Sensor-258': 'float', 'Sensor-259': 'float', 'Sensor-260': 'float', 'Sensor-261': 'float', 'Sensor-262': 'float', 'Sensor-263': 'float', 'Sensor-264': 'float', 'Sensor-265': 'float', 'Sensor-266': 'float', 'Sensor-267': 'float', 'Sensor-268': 'float', 'Sensor-269': 'float', 'Sensor-270': 'float', 'Sensor-271': 'float', 'Sensor-272': 'float', 'Sensor-273': 'float', 'Sensor-274': 'float', 'Sensor-275': 'float', 'Sensor-276': 'float', 'Sensor-277': 'float', 'Sensor-278': 'float', 'Sensor-279': 'float', 'Sensor-280': 'float', 'Sensor-281': 'float', 'Sensor-282': 'float', 'Sensor-283': 'float', 'Sensor-284': 'float', 'Sensor-285': 'float', 'Sensor-286': 'float', 'Sensor-287': 'float', 'Sensor-288': 'float', 'Sensor-289': 'float', 'Sensor-290': 'float', 'Sensor-291': 'float', 'Sensor-292': 'float', 'Sensor-293': 'float', 'Sensor-294': 'float', 'Sensor-295': 'float', 'Sensor-296': 'float', 'Sensor-297': 'float', 'Sensor-298': 'float', 'Sensor-299': 'float', 'Sensor-300': 'float', 'Sensor-301': 'float', 'Sensor-302': 'float', 'Sensor-303': 'float', 'Sensor-304': 'float', 'Sensor-305': 'float', 'Sensor-306': 'float', 'Sensor-307': 'float', 'Sensor-308': 'float', 'Sensor-309': 'float', 'Sensor-310': 'float', 'Sensor-311': 'float', 'Sensor-312': 'float', 'Sensor-313': 'float', 'Sensor-314': 'float', 'Sensor-315': 'float', 'Sensor-316': 'float', 'Sensor-317': 'float', 'Sensor-318': 'float', 'Sensor-319': 'float', 'Sensor-320': 'float', 'Sensor-321': 'float', 'Sensor-322': 'float', 'Sensor-323': 'float', 'Sensor-324': 'float', 'Sensor-325': 'float', 'Sensor-326': 'float', 'Sensor-327': 'float', 'Sensor-328': 'float', 'Sensor-329': 'float', 'Sensor-330': 'float', 'Sensor-331': 'float', 'Sensor-332': 'float', 'Sensor-333': 'float', 'Sensor-334': 'float', 'Sensor-335': 'float', 'Sensor-336': 'float', 'Sensor-337': 'float', 'Sensor-338': 'float', 'Sensor-339': 'float', 'Sensor-340': 'float', 'Sensor-341': 'float', 'Sensor-342': 'float', 'Sensor-343': 'float', 'Sensor-344': 'float', 'Sensor-345': 'float', 'Sensor-346': 'float', 'Sensor-347': 'float', 'Sensor-348': 'float', 'Sensor-349': 'float', 'Sensor-350': 'float', 'Sensor-351': 'float', 'Sensor-352': 'float', 'Sensor-353': 'float', 'Sensor-354': 'float', 'Sensor-355': 'float', 'Sensor-356': 'float', 'Sensor-357': 'float', 'Sensor-358': 'float', 'Sensor-359': 'float', 'Sensor-360': 'float', 'Sensor-361': 'float', 'Sensor-362': 'float', 'Sensor-363': 'float', 'Sensor-364': 'float', 'Sensor-365': 'float', 'Sensor-366': 'float', 'Sensor-367': 'float', 'Sensor-368': 'float', 'Sensor-369': 'float', 'Sensor-370': 'float', 'Sensor-371': 'float', 'Sensor-372': 'float', 'Sensor-373': 'float', 'Sensor-374': 'float', 'Sensor-375': 'float', 'Sensor-376': 'float', 'Sensor-377': 'float', 'Sensor-378': 'float', 'Sensor-379': 'float', 'Sensor-380': 'float', 'Sensor-381': 'float', 'Sensor-382': 'float', 'Sensor-383': 'float', 'Sensor-384': 'float', 'Sensor-385': 'float', 'Sensor-386': 'float', 'Sensor-387': 'float', 'Sensor-388': 'float', 'Sensor-389': 'float', 'Sensor-390': 'float', 'Sensor-391': 'float', 'Sensor-392': 'float', 'Sensor-393': 'float', 'Sensor-394': 'float', 'Sensor-395': 'float', 'Sensor-396': 'float', 'Sensor-397': 'float', 'Sensor-398': 'float', 'Sensor-399': 'float', 'Sensor-400': 'float', 'Sensor-401': 'float', 'Sensor-402': 'float', 'Sensor-403': 'float', 'Sensor-404': 'float', 'Sensor-405': 'float', 'Sensor-406': 'float', 'Sensor-407': 'float', 'Sensor-408': 'float', 'Sensor-409': 'float', 'Sensor-410': 'float', 'Sensor-411': 'float', 'Sensor-412': 'float', 'Sensor-413': 'float', 'Sensor-414': 'float', 'Sensor-415': 'float', 'Sensor-416': 'float', 'Sensor-417': 'float', 'Sensor-418': 'float', 'Sensor-419': 'float', 'Sensor-420': 'float', 'Sensor-421': 'float', 'Sensor-422': 'float', 'Sensor-423': 'float', 'Sensor-424': 'float', 'Sensor-425': 'float', 'Sensor-426': 'float', 'Sensor-427': 'float', 'Sensor-428': 'float', 'Sensor-429': 'float', 'Sensor-430': 'float', 'Sensor-431': 'float', 'Sensor-432': 'float', 'Sensor-433': 'float', 'Sensor-434': 'float', 'Sensor-435': 'float', 'Sensor-436': 'float', 'Sensor-437': 'float', 'Sensor-438': 'float', 'Sensor-439': 'float', 'Sensor-440': 'float', 'Sensor-441': 'float', 'Sensor-442': 'float', 'Sensor-443': 'float', 'Sensor-444': 'float', 'Sensor-445': 'float', 'Sensor-446': 'float', 'Sensor-447': 'float', 'Sensor-448': 'float', 'Sensor-449': 'float', 'Sensor-450': 'float', 'Sensor-451': 'float', 'Sensor-452': 'float', 'Sensor-453': 'float', 'Sensor-454': 'float', 'Sensor-455': 'float', 'Sensor-456': 'float', 'Sensor-457': 'float', 'Sensor-458': 'float', 'Sensor-459': 'float', 'Sensor-460': 'float', 'Sensor-461': 'float', 'Sensor-462': 'float', 'Sensor-463': 'float', 'Sensor-464': 'float', 'Sensor-465': 'float', 'Sensor-466': 'float', 'Sensor-467': 'float', 'Sensor-468': 'float', 'Sensor-469': 'float', 'Sensor-470': 'float', 'Sensor-471': 'float', 'Sensor-472': 'float', 'Sensor-473': 'float', 'Sensor-474': 'float', 'Sensor-475': 'float', 'Sensor-476': 'float', 'Sensor-477': 'float', 'Sensor-478': 'float', 'Sensor-479': 'float', 'Sensor-480': 'float', 'Sensor-481': 'float', 'Sensor-482': 'float', 'Sensor-483': 'float', 'Sensor-484': 'float', 'Sensor-485': 'float', 'Sensor-486': 'float', 'Sensor-487': 'float', 'Sensor-488': 'float', 'Sensor-489': 'float', 'Sensor-490': 'float', 'Sensor-491': 'float', 'Sensor-492': 'float', 'Sensor-493': 'float', 'Sensor-494': 'float', 'Sensor-495': 'float', 'Sensor-496': 'float', 'Sensor-497': 'float', 'Sensor-498': 'float', 'Sensor-499': 'float', 'Sensor-500': 'float', 'Sensor-501': 'float', 'Sensor-502': 'float', 'Sensor-503': 'float', 'Sensor-504': 'float', 'Sensor-505': 'float', 'Sensor-506': 'float', 'Sensor-507': 'float', 'Sensor-508': 'float', 'Sensor-509': 'float', 'Sensor-510': 'float', 'Sensor-511': 'float', 'Sensor-512': 'float', 'Sensor-513': 'float', 'Sensor-514': 'float', 'Sensor-515': 'float', 'Sensor-516': 'float', 'Sensor-517': 'float', 'Sensor-518': 'float', 'Sensor-519': 'float', 'Sensor-520': 'float', 'Sensor-521': 'float', 'Sensor-522': 'float', 'Sensor-523': 'float', 'Sensor-524': 'float', 'Sensor-525': 'float', 'Sensor-526': 'float', 'Sensor-527': 'float', 'Sensor-528': 'float', 'Sensor-529': 'float', 'Sensor-530': 'float', 'Sensor-531': 'float', 'Sensor-532': 'float', 'Sensor-533': 'float', 'Sensor-534': 'float', 'Sensor-535': 'float', 'Sensor-536': 'float', 'Sensor-537': 'float', 'Sensor-538': 'float', 'Sensor-539': 'float', 'Sensor-540': 'float', 'Sensor-541': 'float', 'Sensor-542': 'float', 'Sensor-543': 'float', 'Sensor-544': 'float', 'Sensor-545': 'float', 'Sensor-546': 'float', 'Sensor-547': 'float', 'Sensor-548': 'float', 'Sensor-549': 'float', 'Sensor-550': 'float', 'Sensor-551': 'float', 'Sensor-552': 'float', 'Sensor-553': 'float', 'Sensor-554': 'float', 'Sensor-555': 'float', 'Sensor-556': 'float', 'Sensor-557': 'float', 'Sensor-558': 'float', 'Sensor-559': 'float', 'Sensor-560': 'float', 'Sensor-561': 'float', 'Sensor-562': 'float', 'Sensor-563': 'float', 'Sensor-564': 'float', 'Sensor-565': 'float', 'Sensor-566': 'float', 'Sensor-567': 'float', 'Sensor-568': 'float', 'Sensor-569': 'float', 'Sensor-570': 'float', 'Sensor-571': 'float', 'Sensor-572': 'float', 'Sensor-573': 'float', 'Sensor-574': 'float', 'Sensor-575': 'float', 'Sensor-576': 'float', 'Sensor-577': 'float', 'Sensor-578': 'float', 'Sensor-579': 'float', 'Sensor-580': 'float', 'Sensor-581': 'float', 'Sensor-582': 'float', 'Sensor-583': 'float', 'Sensor-584': 'float', 'Sensor-585': 'float', 'Sensor-586': 'float', 'Sensor-587': 'float', 'Sensor-588': 'float', 'Sensor-589': 'float', 'Sensor-590': 'float', 'Output': 'Integer'}
+2021-07-17 :: 23:58:46.823150 :::: Schema Validated Successfully
+2021-07-17 :: 23:58:46.838765 :::: Validating the file names
+2021-07-17 :: 23:58:46.838765 :::: Invalid file!! Wafer12_20012.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.845282 :::: Invalid file!! Waferdefault_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.845282 :::: Invalid file!! Wafer_07012020_000000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.845282 :::: wafer_07012020_041011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.845282 :::: Invalid file!! Wafer_07012020_223345.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.845282 :::: Invalid file!! Wafer_08012020_120000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.860925 :::: Invalid file!! Wafer_10012020_131534.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.860925 :::: Invalid file!! Wafer_11012020_151432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.860925 :::: Invalid file!! Wafer_12012020_111.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.860925 :::: Invalid file!! Wafer_12012020_111213.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.876547 :::: wafer_13012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.876547 :::: Invalid file!! Wafer_13012020_141000.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.876547 :::: Invalid file!! Wafer_14012020_113045.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.876547 :::: Invalid file!! Wafer_15010_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.876547 :::: Invalid file!! Wafer_15012020_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.876547 :::: wafer_16012020_051629.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.876547 :::: wafer_16012020_134553.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.876547 :::: wafer_17012020_125434.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.876547 :::: Invalid file!! Wafer_18012020_121532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.892172 :::: Invalid file!! Wafer_19012020_141432.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.907797 :::: wafer_20012020_090819.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.907797 :::: Invalid file!! Wafer_20012020_135132.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.907797 :::: wafer_20022020_090716.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.907797 :::: wafer_21012020_080913.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.907797 :::: Invalid file!! Wafer_21012020_143634.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.907797 :::: Invalid file!! Wafer_22012020_173245.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.907797 :::: wafer_22022020_041119.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: wafer_23012020_011008.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: wafer_23012020_041211.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: Invalid file!! Wafer_23012020_163456.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.923422 :::: Invalid file!! Wafer_24012020_150121.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.923422 :::: Invalid file!! Wafer_25012020_142112.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.923422 :::: wafer_27012020_080911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: wafer_28012020_051011.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: wafer_28012020_090817.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.923422 :::: wafer_28042020_031911.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.939051 :::: wafer_29012020_050617.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.939051 :::: wafer_29012020_060756.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.939051 :::: wafer_31012020_090811.csv moved to Clean_batch_files/Training/good
+2021-07-17 :: 23:58:46.939051 :::: Invalid file!! Wafer_fault_detection.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.945572 :::: Invalid file!! Wafer_text_130532.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:46.945572 :::: Total file:41::Valid :18::Invalid :23
+2021-07-17 :: 23:58:46.945572 :::: File name validation successfully completed !!
+2021-07-17 :: 23:58:46.945572 :::: Validating the number of columns and there names!!
+2021-07-17 :: 23:58:47.895083 :::: Invalid number of columns!! wafer_16012020_134553.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:48.142531 :::: Invalid number of columns!! wafer_17012020_125434.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:51.156798 :::: Total files:18::Valid :16::Invalid :2
+2021-07-17 :: 23:58:51.156798 :::: No. of columns validated successfully !!
+2021-07-17 :: 23:58:51.156798 :::: Validating missing values in columns !!
+2021-07-17 :: 23:58:51.272733 :::: Has missing column!! wafer_07012020_041011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:51.720755 :::: Has missing column!! wafer_20012020_090819.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:52.172676 :::: Has missing column!! wafer_22022020_041119.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:52.273736 :::: Has missing column!! wafer_23012020_011008.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:52.612667 :::: Has missing column!! wafer_28012020_051011.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:53.033144 :::: Has missing column!! wafer_29012020_060756.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:53.097140 :::: Has missing column!! wafer_31012020_090811.csv moved to Clean_batch_files/Training/bad
+2021-07-17 :: 23:58:53.097140 :::: Total files:16::Valid :9::Invalid :7
+2021-07-17 :: 23:58:53.097140 :::: Missing values updated successfully !!
+2021-07-17 :: 23:58:53.105145 :::: Data Transformation by updating the null values!!
+2021-07-17 :: 23:59:02.043816 :::: Data Transformation completed successfully!!
+2021-07-17 :: 23:59:02.051809 :::: Creating table TRAIN_DATA in Database TRAIN !!
+2021-07-17 :: 23:59:02.051809 :::: Connecting to DB
+2021-07-17 :: 23:59:47.396149 :::: Table creation Successful !!
+2021-07-17 :: 23:59:47.411779 :::: Inserting data into TRAIN_DATA in Database TRAIN !!
+2021-07-17 :: 23:59:47.411779 :::: Connecting to DB
+2021-07-17 :: 23:59:48.330227 :::: wafer_13012020_090817.csv inserted successfully!!
+2021-07-17 :: 23:59:48.762441 :::: wafer_16012020_051629.csv inserted successfully!!
+2021-07-17 :: 23:59:49.085498 :::: wafer_20022020_090716.csv inserted successfully!!
+2021-07-17 :: 23:59:49.502070 :::: wafer_21012020_080913.csv inserted successfully!!
+2021-07-17 :: 23:59:49.934249 :::: wafer_23012020_041211.csv inserted successfully!!
+2021-07-17 :: 23:59:50.435857 :::: wafer_27012020_080911.csv inserted successfully!!
+2021-07-17 :: 23:59:50.790060 :::: wafer_28012020_090817.csv inserted successfully!!
+2021-07-17 :: 23:59:51.206462 :::: wafer_28042020_031911.csv inserted successfully!!
+2021-07-17 :: 23:59:51.569911 :::: wafer_29012020_050617.csv inserted successfully!!
+2021-07-17 :: 23:59:51.569911 :::: Inserted data Successfully !!
+2021-07-17 :: 23:59:51.592006 :::: Pulling the data from database!!
+2021-07-17 :: 23:59:51.592006 :::: Connecting to DB
+2021-07-17 :: 23:59:52.171609 :::: Transferred the data to csv file Final_csv/train_Input.csv !!
+2021-07-17 :: 23:59:52.187226 :::: Training Started !!
+2021-07-17 :: 23:59:52.187226 :::: Reading the complete data...

@@ -74,7 +74,7 @@ class DB_Operation:
         try:
             self.log_writer.log(file_log, "Connecting to DB")
             conn = sqlite3.connect(self.dbPath + self.databaseName + ".db")
-            sqlQuery = "SELECT * FROM TRAIN_DATA"
+            sqlQuery = f"SELECT * FROM {self.table_name}"
             cursor = conn.cursor()
             result = cursor.execute(sqlQuery).fetchall()
             if not os.path.isdir(self.final_csv):

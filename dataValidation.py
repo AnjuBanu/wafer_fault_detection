@@ -18,7 +18,7 @@ class DataValidation:
             self.clean_path = "Clean_batch_files/Training/"
             self.path = "Batch_files/Training_Batch_Files/"
         else:
-            self.schema_path = 'schema_prediction.json'
+            self.schema_path = 'schema/schema_prediction.json'
             self.log_file = "Logs/prediction_log.txt"
             self.clean_path = "Clean_batch_files/Prediction/"
 
